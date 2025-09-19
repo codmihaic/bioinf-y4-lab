@@ -57,3 +57,6 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.3.5]  2025-09-20
 ### Added
 - Lab 07 Network Vizualization: structura
+## [0.3.6]  2025-09-20
+### Adăugat
+- Lab 08  Federated Learning (Flower): demo și exerciții.
