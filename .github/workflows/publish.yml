@@ -1,0 +1,29 @@
+name: Publish Docker image
+
+on:
+  push:
+    branches: [ main ]       # build/push whenever main changes
+  workflow_dispatch: {}       # allow manual "Run workflow"
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write         # needed to push to ghcr
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Login to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push (BIOINF-Y4:base)
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: ghcr.io/bozdogalex/BIOINF-Y4:base

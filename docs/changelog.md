@@ -29,5 +29,12 @@ Toate schimbările notabile sunt documentate aici.
 - Scripturi helper: `dev.ps1`, `Makefile`.
 
 ## [0.2.0] – 2025-09-20
-### Adăugat
+### Added
 - Lab 02 — Aliniere de secvențe: notebook/script și materiale PDF (LFS).
+## [0.2.1] – 2025-09-20
+### Added
+- `.flake8`, `.pre-commit-config.yaml`, `.dockerignore`.
+- `CONTRIBUTING.md`, `citation.cff`.## [0.2.2]  2025-09-20
+### Added
+- Șabloane GitHub: issue și pull request.
+- Workflow publicare imagine: `.github/workflows/publish.yml`.
