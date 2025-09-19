@@ -45,3 +45,6 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.3.1]  2025-09-20
 ### Adăugat
 - Lab 03  Formate & NGS: resurse și exerciții.
+## [0.3.2]  2025-09-20
+### Adăugat
+- Lab 04  Filogenetică: notebook/script și materiale.
