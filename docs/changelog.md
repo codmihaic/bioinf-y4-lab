@@ -63,3 +63,6 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.3.7]  2025-09-20
 ### Adăugat
 - Lab 09  Drug repurposing: notebook/script și resurse.
+## [0.3.8]  2025-09-20
+### Adăugat
+- Lab 10  Integrativ: materiale și exemple.
