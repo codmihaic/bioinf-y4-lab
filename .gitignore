@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+.idea
+
+# Notebooks
+.ipynb_checkpoints/
+Untitled*.ipynb
+*.ipynb_convert
+*.nbconvert.ipynb
+*.ipynb~
+
+# Data & results
+data/
+results/
+outputs/
+artifacts/
+mlruns/
+*.parquet
+*.feather
+*.csv.gz
+*.tsv.gz
+*.log
+
+# Envs
+.venv/
+.env
+.env.*
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+
+# Build
+dist/
+build/
+
+# Tests
+.pytest_cache/
+
+
+# Allow sample data
+!data/sample/
