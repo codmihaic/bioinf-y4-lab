@@ -51,3 +51,6 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.3.3]  2025-09-20
 ### Adăugat
 - Lab 05  Clustering: cod și fișiere suport.
+## [0.3.4]  2025-09-20
+### Adăugat
+- Lab 06  WGCNA: materiale și exemple.
