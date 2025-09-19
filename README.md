@@ -14,7 +14,7 @@
 - 03 — NGS: [labs/03_formats&NGS](labs/03_formats&NGS)
 - 04 — Phylogenetics: [labs/04_phylogenetics](labs/04_phylogenetics)
 - 05 — Clustering: [labs/05_clustering](labs/05_clustering)
-- 07— WGCNA + Diseasome: [labs/06_wgcna](labs/06_wgcna)
+- 07 — WGCNA + Diseasome: [labs/06_wgcna](labs/06_wgcna)
 - 08 — Network Viz & GNN: [labs/07_network_viz](labs/07_network_viz)
 - 09 — Federated Learning: [labs/08_ML_flower](labs/08_ML_flower)
 - 10 — Drug Repurposing: [labs/09_repurposing](labs/09_repurposing)
@@ -45,7 +45,6 @@
 Supporting material and submission pack live under `docs/`:
 
 - [Onboarding](docs/onboarding.md) — Codespaces & Docker setup, smoke test, troubleshooting
-- [Before/After](docs/before_after.md) — ANIS submission improvement pack
 - [One-pagers](docs/lab_onepagers/) — PDF summaries of labs
 - [Screenshots](docs/screens/) — environment/UI captures (MLflow, Codespaces, Argo)
 - [Changelog](docs/changelog.md) — changes across versions
@@ -55,7 +54,7 @@ Supporting material and submission pack live under `docs/`:
 
 ## Contributing / Policies / Citation
 
-- `CONTRIBUTING.md` — contribution rules & PR tips  
-- `CITATION.cff`  — how to cite this work  
-- `docs/changelog.md` — changelog (linked from releases)
+- [Contributing](CONTRIBUTING.md) — contribution rules & PR tips  
+- [Citation](CITATION.cff)  — how to cite this work  
+- [Changelog](docs/changelog.md) — changelog (linked from releases)
 

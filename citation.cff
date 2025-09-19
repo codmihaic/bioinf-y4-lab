@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use Bioinformatics and Functional Genomics Lab, please cite this work."
+title: "Bioinformatics and Functonal Genomics"
+version: "2025"
+authors:
+  - family-names: "Bozdog"
+    given-names: "Alexandru-Cristian"
+    affiliation: "Politehnica University of Timișoara"
+repository-code: https://github.com/bozdogalex/bioinf-y4-lab
+keywords:
+  - bioinformatics
+  - big data
+  - health informatics
+  - machine learning
+  - federated learning
+  - quantum computing
+  - healthtech
+date-released: "2025-09-19"
