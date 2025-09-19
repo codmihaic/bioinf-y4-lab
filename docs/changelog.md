@@ -73,3 +73,6 @@ Toate schimbările notabile sunt documentate aici.
 - scripts/generate_licenses.py
 ### Fixed 
 -changelog.md
+## [0.4.2]  2025-09-20
+### Added
+- `mlops/`  utilitare MLflow și scripturi de logare.
