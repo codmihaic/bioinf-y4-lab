@@ -66,3 +66,7 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.3.8]  2025-09-20
 ### Adăugat
 - Lab 10  Integrativ: materiale și exemple.
+## [0.3.9]  2025-09.20
+### Added 
+- Lab 11  Multiomcs: structura
+
