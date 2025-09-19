@@ -1,4 +1,4 @@
-``# Contributing Guidelines – BIOINF-Y4 Lab
+# Contributing Guidelines – BIOINF-Y4 Lab
 
 ## Pair Work
 - Labs are solved alone or in pairs (roles A & B).
@@ -17,4 +17,4 @@
 - Python: [PEP8](https://peps.python.org/pep-0008/).
 - Notebooks: keep outputs cleared before committing.
 - Reports: PDF, ≤2 pages per assignment.
-``
+

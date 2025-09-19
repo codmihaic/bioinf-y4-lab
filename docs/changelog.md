@@ -54,3 +54,6 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.3.4]  2025-09-20
 ### Adăugat
 - Lab 06  WGCNA: materiale și exemple.
+## [0.3.5]  2025-09-20
+### Added
+- Lab 07 Network Vizualization: structura
