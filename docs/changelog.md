@@ -70,9 +70,9 @@ Toate schimbările notabile sunt documentate aici.
 - Toate laboratoarele create
 ## [0.4.1]  2025-09.20
 ### Added 
-- scripts/generate_licenses.py
+- `scripts/generate_licenses.py`
 ### Fixed 
--changelog.md
+-`docs/changelog.md`
 ## [0.4.2]  2025-09-20
 ### Added
 - `mlops/`  utilitare MLflow și scripturi de logare.
@@ -80,3 +80,9 @@ Toate schimbările notabile sunt documentate aici.
 ### Added
 - `docs/lab_onepagers/`
 - `docs/presentations/`
+## [0.4.4]  2025-09-20
+### Fix CI
+### Modified 
+- `.github/workflows/ci.yml`
+- `.github/workflows/publish.yml`
+
