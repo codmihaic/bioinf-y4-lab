@@ -1,0 +1,32 @@
+name: CI
+on:
+  push:
+    branches: [ main, env/**, feat/** ]
+    paths:
+      - 'labs/**'
+      - '.github/workflows/ci.yml'
+      - '.flake8'
+  pull_request:
+    paths:
+      - 'labs/**'
+      - '.github/workflows/ci.yml'
+      - '.flake8'
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/bozdogalex/BIOINF-Y4:base
+    permissions:
+      contents: read
+      packages: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint (only smoke)
+        run: flake8 labs/00_smoke
+      - name: Run smoke
+        run: python labs/00_smoke/smoke.py

@@ -1,4 +1,4 @@
-@'
+
 # Changelog — Bioinformatica și Genomică Funcțională (BIOINF-Y4)
 
 Toate schimbările notabile sunt documentate aici.
@@ -13,4 +13,7 @@ Toate schimbările notabile sunt documentate aici.
 ### Added
 - Dockerfile + `requirements.txt` (CPU-only).
 - `.devcontainer/devcontainer.json` folosind `ghcr.io/bozdogalex/bioinf-y4:base`.
-'@ | Set-Content -Encoding UTF8 .\docs\changelog.md
+
+## [0.1.2] – 2025-09-19
+### Added
+- CI: flake8 + script "smoke" rulate în containerul GHCR.
