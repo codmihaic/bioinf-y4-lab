@@ -48,3 +48,6 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.3.2]  2025-09-20
 ### Adăugat
 - Lab 04  Filogenetică: notebook/script și materiale.
+## [0.3.3]  2025-09-20
+### Adăugat
+- Lab 05  Clustering: cod și fișiere suport.
