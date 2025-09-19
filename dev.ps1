@@ -3,7 +3,7 @@ param(
 )
 
 if ($cmd -eq "jupyter") {
-  docker run -it --rm -p 8890:8888 -v "${PWD}:/work" -w /work ghcr.io/bozdogalex/BIOINF-Y4:base `
+  docker run -it --rm -p 8890:8888 -v "${PWD}:/work" -w /work ghcr.io/bozdogalex/bioinf-y4:base `
     bash -lc "jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --IdentityProvider.token='' --allow-root"
 }
 elseif ($cmd -eq "smoke") {

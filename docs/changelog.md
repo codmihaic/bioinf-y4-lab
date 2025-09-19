@@ -85,4 +85,11 @@ Toate schimbările notabile sunt documentate aici.
 ### Modified 
 - `.github/workflows/ci.yml`
 - `.github/workflows/publish.yml`
+## [0.4.5]  2025-09-20
+### Fix GCHR package name
+### Modified
+-`.devcontainer/devcontainer.json`
+-`dev.ps1`
+-`docs/onboarding.md`
+-`labs/01_intro&databases/README_Lab1.md`
 
