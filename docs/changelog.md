@@ -76,3 +76,7 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.4.2]  2025-09-20
 ### Added
 - `mlops/`  utilitare MLflow și scripturi de logare.
+## [0.4.3]  2025-09-20
+### Added
+- `docs/lab_onepagers/`
+- `docs/presentations/`
