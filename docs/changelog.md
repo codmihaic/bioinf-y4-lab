@@ -69,4 +69,7 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.3.9]  2025-09.20
 ### Added 
 - Lab 11  Multiomcs: structura
-
+## [0.4]  2025-09.20
+### Added 
+- Lab 12  Generative AI: structura
+- Toate laboratoarele create
