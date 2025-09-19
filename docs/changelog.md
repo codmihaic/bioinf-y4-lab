@@ -42,3 +42,6 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.3.0]  2025-09-20
 ### Adăugat
 - Lab 01  Introducere & Baze de date: materiale inițiale.
+## [0.3.1]  2025-09-20
+### Adăugat
+- Lab 03  Formate & NGS: resurse și exerciții.
