@@ -27,3 +27,7 @@ Toate schimbările notabile sunt documentate aici.
 ### Added
 - LICENSE, `docs/policies.md`, `docs/LICENSES.md`, `docs/GA4GH_primer.md`, `docs/resources.md`, `docs/GDPR_and_DataPolicy.md`
 - Scripturi helper: `dev.ps1`, `Makefile`.
+
+## [0.2.0] – 2025-09-20
+### Adăugat
+- Lab 02 — Aliniere de secvențe: notebook/script și materiale PDF (LFS).
