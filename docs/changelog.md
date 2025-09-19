@@ -60,3 +60,6 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.3.6]  2025-09-20
 ### Adăugat
 - Lab 08  Federated Learning (Flower): demo și exerciții.
+## [0.3.7]  2025-09-20
+### Adăugat
+- Lab 09  Drug repurposing: notebook/script și resurse.
