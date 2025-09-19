@@ -34,7 +34,11 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.2.1] – 2025-09-20
 ### Added
 - `.flake8`, `.pre-commit-config.yaml`, `.dockerignore`.
-- `CONTRIBUTING.md`, `citation.cff`.## [0.2.2]  2025-09-20
+- `CONTRIBUTING.md`, `citation.cff`.
+## [0.2.2]  2025-09-20
 ### Added
 - Șabloane GitHub: issue și pull request.
 - Workflow publicare imagine: `.github/workflows/publish.yml`.
+## [0.3.0]  2025-09-20
+### Adăugat
+- Lab 01  Introducere & Baze de date: materiale inițiale.
