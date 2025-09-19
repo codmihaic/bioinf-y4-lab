@@ -5,20 +5,23 @@ on:
     branches: [ main ]
   workflow_dispatch: {}
 
+# Give the GITHUB_TOKEN the scopes we need (top-level, explicit)
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write     # push to GHCR
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Login to GHCR
+      - name: Login to GHCR (owner namespace)
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ github.actor }}
+          username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Docker Buildx
@@ -29,9 +32,9 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/bozdogalex/bioinf-y4:base
+          tags: ghcr.io/${{ github.repository_owner }}/bioinf-y4:base
           labels: |
-            org.opencontainers.image.source=https://github.com/bozdogalex/bioinf-y4-lab
+            org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.title=BIOINF-Y4 base
             org.opencontainers.image.description=CPU-only base image for BIOINF-Y4 labs
           cache-from: type=gha
