@@ -17,3 +17,8 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.1.2] – 2025-09-19
 ### Added
 - CI: flake8 + script "smoke" rulate în containerul GHCR.
+
+## [0.1.3] – 2025-09-19
+### Added
+- README: badge-uri CI & Codespaces, link către Onboarding.
+- `docs/onboarding.md`: pași de start.
