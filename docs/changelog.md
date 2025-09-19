@@ -8,26 +8,21 @@ Toate schimbările notabile sunt documentate aici.
 - Schelet inițial pentru laboratoarele de licență (anul IV).
 - Structură de bază: `labs/`, `docs/`.
 - README inițial cu denumirea completă a cursului.
-
 ## [0.1.1] – 2025-09-19
 ### Added
 - Dockerfile + `requirements.txt` (CPU-only).
 - `.devcontainer/devcontainer.json` folosind `ghcr.io/bozdogalex/bioinf-y4:base`.
-
 ## [0.1.2] – 2025-09-19
 ### Added
 - CI: flake8 + script "smoke" rulate în containerul GHCR.
-
 ## [0.1.3] – 2025-09-19
 ### Added
 - README: badge-uri CI & Codespaces, link către Onboarding.
 - `docs/onboarding.md`: pași de start.
-
 ## [0.1.4] – 2025-09-19
 ### Added
 - LICENSE, `docs/policies.md`, `docs/LICENSES.md`, `docs/GA4GH_primer.md`, `docs/resources.md`, `docs/GDPR_and_DataPolicy.md`
 - Scripturi helper: `dev.ps1`, `Makefile`.
-
 ## [0.2.0] – 2025-09-20
 ### Added
 - Lab 02 — Aliniere de secvențe: notebook/script și materiale PDF (LFS).
@@ -40,31 +35,31 @@ Toate schimbările notabile sunt documentate aici.
 - Șabloane GitHub: issue și pull request.
 - Workflow publicare imagine: `.github/workflows/publish.yml`.
 ## [0.3.0]  2025-09-20
-### Adăugat
+### Added
 - Lab 01  Introducere & Baze de date: materiale inițiale.
 ## [0.3.1]  2025-09-20
-### Adăugat
+### Added
 - Lab 03  Formate & NGS: resurse și exerciții.
 ## [0.3.2]  2025-09-20
-### Adăugat
+### Added
 - Lab 04  Filogenetică: notebook/script și materiale.
 ## [0.3.3]  2025-09-20
-### Adăugat
+### Added
 - Lab 05  Clustering: cod și fișiere suport.
 ## [0.3.4]  2025-09-20
-### Adăugat
+### Added
 - Lab 06  WGCNA: materiale și exemple.
 ## [0.3.5]  2025-09-20
 ### Added
 - Lab 07 Network Vizualization: structura
 ## [0.3.6]  2025-09-20
-### Adăugat
+### Added
 - Lab 08  Federated Learning (Flower): demo și exerciții.
 ## [0.3.7]  2025-09-20
-### Adăugat
+### Added
 - Lab 09  Drug repurposing: notebook/script și resurse.
 ## [0.3.8]  2025-09-20
-### Adăugat
+### Added
 - Lab 10  Integrativ: materiale și exemple.
 ## [0.3.9]  2025-09.20
 ### Added 
@@ -73,3 +68,8 @@ Toate schimbările notabile sunt documentate aici.
 ### Added 
 - Lab 12  Generative AI: structura
 - Toate laboratoarele create
+## [0.4.1]  2025-09.20
+### Added 
+- scripts/generate_licenses.py
+### Fixed 
+-changelog.md
