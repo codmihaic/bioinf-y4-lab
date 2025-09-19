@@ -22,3 +22,8 @@ Toate schimbările notabile sunt documentate aici.
 ### Added
 - README: badge-uri CI & Codespaces, link către Onboarding.
 - `docs/onboarding.md`: pași de start.
+
+## [0.1.4] – 2025-09-19
+### Added
+- LICENSE, `docs/policies.md`, `docs/LICENSES.md`, `docs/GA4GH_primer.md`, `docs/resources.md`, `docs/GDPR_and_DataPolicy.md`
+- Scripturi helper: `dev.ps1`, `Makefile`.
