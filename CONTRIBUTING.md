@@ -16,7 +16,7 @@ git checkout -b feat/labNN-handle
 3. Adăugați livrabilele:
 - cod (scripturi / notebook-uri completate),
 - rezultate mici (CSV ≤10 linii),
-- *NOTES.md* scurt (≤10 linii).
+- *notes.md* scurt (≤10 linii).
 Livrabilele merg în folderul:
 ```bash
 labs/NN_topic/submissions/<handle>/
