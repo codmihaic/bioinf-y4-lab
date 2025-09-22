@@ -1,7 +1,8 @@
 # BIOINF-Y4 — Bioinformatica și Genomică Funcțională (Bachelor, Year 4) 
 
-![CI](https://github.com/bozdogalex/bioinf-y4-lab/actions/workflows/ci.yml/badge.svg?branch=main)
 [![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bozdogalex/bioinf-y4-lab?quickstart=1)
+![CI](https://github.com/bozdogalex/bioinf-y4-lab/actions/workflows/ci.yml/badge.svg?branch=main)
+
 
 > Laboratoare la nivel de licență (anul IV), combinând bioinformatica clasică cu metode moderne de învățare automată, rețele și GenAI.  
 > Mediul este CPU-only și identic între Codespaces și Docker prin imaginea preconstruită `ghcr.io/bozdogalex/bioinf-y4-lab:base`.
@@ -53,6 +54,20 @@ Supporting material and submission pack live under `docs/`:
 - [GA4GH](docs/GA4GH_primer) - ethical & technical standards for sharing biomedical data
 - [GDPR and Data policy](docs/GDPR_and_DataPolicy.md) 
 ---
+
+### MLflow 
+We use a local file store (`./mlruns`) so everything works offline and inside the container.
+ 
+ **Smoke test**
+ ```bash
+ python labs/00_smoke/mlflow_smoke.py --experiment "BIOINF-Y4 Demo"
+ ```
+ 
+ **Launch UI**
+ ``
+ mlflow ui --backend-store-uri file://$PWD/mlruns --host 0.0.0.0 --port 5000
+ ```
+ You should see one run under **BIOINF-Y4 Demo** with `auc` increasing and an `artifact.txt`.
 
 ## Contributing / Policies / Citation
 

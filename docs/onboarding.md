@@ -52,6 +52,14 @@ Open: **http://localhost:8888/lab**
 
 ---
 
+# Run MLflow smoke inside the canonical image, from repo root:
+docker run --rm -v ${PWD}:/work -w /work ghcr.io/bozdogalex/bioinf-y4-lab:base `
+  python labs/00_smoke/mlflow_smoke.py --experiment "BIOINF-Y4 Demo"
+
+# Start the UI locally:
+mlflow ui --backend-store-uri file://$PWD/mlruns --host 127.0.0.1 --port 5000
+
+
 ## Verification checklist
 
 - [ ] **Smoke**: `python labs/00_smoke/smoke.py` → prints `ok`

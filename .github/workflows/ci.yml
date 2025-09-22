@@ -30,3 +30,5 @@ jobs:
         run: flake8 labs/00_smoke
       - name: Run smoke
         run: python labs/00_smoke/smoke.py
+      - name: MLflow smoke (no UI)
+        run: python labs/00_smoke/mlflow_smoke.py --experiment "BIOINF-Y4 Demo"

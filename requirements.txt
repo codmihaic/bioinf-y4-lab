@@ -6,5 +6,5 @@ duckdb
 scikit-learn
 networkx
 matplotlib
-mlflow
 flake8
+mlflow>=2.14,<3
