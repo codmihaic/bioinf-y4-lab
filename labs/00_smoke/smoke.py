@@ -1,3 +1,6 @@
+# labs/00_smoke/smoke.py
+"""Import smoke test to verify core libs inside the container."""
+
 import duckdb
 import matplotlib
 import mlflow
@@ -6,6 +9,7 @@ import numpy as np
 import pandas as pd
 import polars as pl
 import sklearn
+
 
 def main() -> None:
     # minimal no-op uses to satisfy flake8 and verify imports work
