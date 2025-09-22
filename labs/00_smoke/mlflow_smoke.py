@@ -1,8 +1,10 @@
 # labs/00_smoke/mlflow_smoke.py
-import argparse
-import time
+import argparse, time, os, sys, mlflow
+# ensure repo root on sys.path for 'mlops'
+repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if repo_root not in sys.path:
+    sys.path.insert(0, repo_root)
 from mlops.mlflow_utils import start_run, log_params, log_metrics
-import mlflow
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--experiment", default="BIOINF-Y4 Demo", help="MLflow experiment name")

@@ -56,18 +56,8 @@ Supporting material and submission pack live under `docs/`:
 ---
 
 ### MLflow 
-We use a local file store (`./mlruns`) so everything works offline and inside the container.
- 
- **Smoke test**
- ```bash
- python labs/00_smoke/mlflow_smoke.py --experiment "BIOINF-Y4 Demo"
- ```
- 
- **Launch UI**
- ``
- mlflow ui --backend-store-uri file://$PWD/mlruns --host 0.0.0.0 --port 5000
- ```
- You should see one run under **BIOINF-Y4 Demo** with `auc` increasing and an `artifact.txt`.
+- See **[docs/mlflow.md](docs/mlflow.md)** for quick start, Codespaces UI, and troubleshooting.
+---
 
 ## Contributing / Policies / Citation
 
