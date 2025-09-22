@@ -10,8 +10,10 @@ smoke:
 lint:
 	docker run --rm -v "${PWD}:/work" -w /work ghcr.io/bozdogalex/bioinf-y4-lab:base flake8
 
+.PHONY: mlflow-smoke
 mlflow-smoke:
-\tpython labs/00_smoke/mlflow_smoke.py --experiment "BIOINF-Y4 Demo"
+	python labs/00_smoke/mlflow_smoke.py --experiment "BIOINF-Y4 Demo"
 
+.PHONY: mlflow-ui
 mlflow-ui:
-\tmlflow ui --backend-store-uri file://$$(pwd)/mlruns --host 0.0.0.0 --port 5000
+	mlflow ui --backend-store-uri file://$$(pwd)/mlruns --host 0.0.0.0 --port 5000
