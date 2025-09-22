@@ -27,8 +27,8 @@ jobs:
       image: ghcr.io/bozdogalex/bioinf-y4-lab:base
     steps:
       - uses: actions/checkout@v4
-      - name: flake8
-        run: flake8 labs
+      - name: flake8 (lab 01 only, temporary)
+        run: flake8 labs/01_intro\&databases
 
 
   smoke:

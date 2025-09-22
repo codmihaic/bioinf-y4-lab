@@ -3,39 +3,50 @@ Scop: parcurgeți un fișier multi-FASTA și calculați GC pentru fiecare secven
 
 Instrucțiuni:
 1) Citiți dintr-un fișier FASTA (ideal: data/sample/mitochondrial_sequences.fasta).
-2) Pentru fiecare înregistrare, calculați fracția GC și afișați <id>, <GC>.
-3) (Bonus) sortați după GC descrescător.
+2) Pentru fiecare înregistrare, calculați fracția GC și afișați <id>\t<GC>.
+3) (Bonus) sortați descrescător după GC.
 
-Completați TODO-urile de mai jos consultând documentația Biopython (SeqIO).
+Completați TODO-urile consultând documentația Biopython (SeqIO).
 """
 
 from pathlib import Path
 from Bio import SeqIO
 
-# TODO: setați calea către un fișier FASTA mic din repo (data/sample/...)
-fasta_path = Path("data/sample/mitochondrial_sequences.fasta")  # exemplu sugerat
 
-# TODO: verificați că fișierul există; dacă nu, afișați un mesaj prietenos și ieșiți
-if not fasta_path.exists():
-    print("Fișierul FASTA nu există:", fasta_path)
-    print("Sugestie: creați un fișier mic în data/sample/ sau folosiți un fișier disponibil la curs.")
-    raise SystemExit(1)
+def gc_fraction(seq) -> float:
+    """Fracție GC pentru o secvență; protejat la împărțire la zero."""
+    length = max(1, len(seq))
+    return (seq.count("G") + seq.count("C")) / length
 
-# TODO: parcurgeți înregistrările din FASTA (SeqIO.parse)
-records = list(SeqIO.parse(str(fasta_path), "fasta"))
 
-# TODO: pentru fiecare înregistrare, calculați fracția GC și afișați rezultatul
-def gc_fraction(seq):
-    return (seq.count("G") + seq.count("C")) / max(1, len(seq))
+def main() -> None:
+    # TODO: setați calea către un FASTA mic din repo (data/sample/...)
+    fasta_path = Path("data/sample/mitochondrial_sequences.fasta")
 
-results = []
-for rec in records:
-    gc = gc_fraction(rec.seq)
-    results.append((rec.id, gc))
+    # TODO: verificați că fișierul există; altfel, mesaj prietenos și exit
+    if not fasta_path.exists():
+        print("Fișierul FASTA nu există:", fasta_path)
+        print(
+            "Sugestie: creați un fișier mic în data/sample/ sau "
+            "folosiți un fișier oferit la curs."
+        )
+        raise SystemExit(1)
 
-# TODO (bonus): sortați după GC descrescător
-results.sort(key=lambda x: x[1], reverse=True)
+    # TODO: parcurgeți înregistrările din FASTA (SeqIO.parse)
+    records = list(SeqIO.parse(str(fasta_path), "fasta"))
 
-# Afișare finală
-for rid, gc in results:
-    print(f"{rid}\tGC={gc:.3f}")
+    # TODO: calculați GC pentru fiecare înregistrare
+    results = []
+    for rec in records:
+        results.append((rec.id, gc_fraction(rec.seq)))
+
+    # TODO (bonus): sortați descrescător după GC
+    results.sort(key=lambda x: x[1], reverse=True)
+
+    # Afișare finală
+    for rec_id, gc in results:
+        print(f"{rec_id}\tGC={gc:.3f}")
+
+
+if __name__ == "__main__":
+    main()
