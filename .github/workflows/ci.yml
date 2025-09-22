@@ -19,11 +19,11 @@ concurrency:
 jobs:
   smoke:
     runs-on: ubuntu-latest
-    container:
-      image: :base
     permissions:
-      contents: read
-      packages: read
+         contents: read
+         packages: read
+    container:
+         image: ghcr.io/bozdogalex/bioinf-y4-lab:base
     steps:
       - uses: actions/checkout@v4
       - name: Lint (only smoke)
