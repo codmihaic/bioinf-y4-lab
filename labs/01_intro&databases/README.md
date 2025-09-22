@@ -19,7 +19,7 @@ Alege **una**:
    python labs/00_smoke/smoke.py
    ```
 Așteptat: ok.
-B) Docker local (Windows PowerShell)
+### B) Docker local (Windows PowerShell)
 ```powershell
 docker pull ghcr.io/bozdogalex/bioinf-y4-lab:base
 docker run -it --rm -p 8890:8888 -v "${PWD}:/work" -w /work ghcr.io/bozdogalex/bioinf-y4-lab:base `
@@ -46,7 +46,16 @@ Pași:
  - PR trece verificările CI.
 Criterii de acceptare: format corect CSV + PR verde + PR îmbinat.
 
-## Partea 2 - Demo Biopython (NCBI Entrez)
+### Cum să deschizi Pull Request-ul 
+
+Folosește acest link pentru a crea PR-ul cu **checklist-ul pentru Săptămâna 1** încărcat automat:
+
+👉 [Deschide PR Săptămâna 1](https://github.com/bozdogalex/bioinf-y4-lab/compare/main...feat/roster-yourhandle?quick_pull=1&template=week1_roster.md)
+
+⚠️ Înlocuiește `roster-yourhandle` cu numele branch-ului pe care l-ai împins (exemplu: `feat/roster-popescuan`).
+
+
+## Partea 2 - Demo Biopython - NCBI Entrez
 - Rulează:
 ```bash
 python "labs/01_intro&databases/demo_entrez_brca1.py"
@@ -56,5 +65,5 @@ Efect: Descarcă un GenBank BRCA1 (H. sapiens), scrie data/brca1.gb și afișeaz
 **Competențe:** 
 Studentul poate rula mediul reproducibil și poate deschide un PR corect (fork → branch → PR) — fundament pentru proiectul și temele ulterioare.
 
-**Lectură** : [labs_01_intro&databases](docs/lab_onepagers/01_intro&databases.md) 
-[labs/01_intro&databases](labs/01_intro&databases)
+**Lectură** : [01_intro&databases](../../docs/lab_onepagers/01_intro&databases.md)
+

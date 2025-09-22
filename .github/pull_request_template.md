@@ -1,11 +1,6 @@
-## Summary
-- (1–3 bullets on what changed)
+# Pull Request
 
-## Lab(s) affected
-- e.g., 06a WGCNA, 07 ML + FL
+⚠️ Dacă nu vedeți mai jos un checklist pentru laborator, înseamnă că ați ales șablonul greșit.  
+Mergeți înapoi la README-ul săptămânii și folosiți link-ul indicat acolo pentru a deschide PR-ul corect.
 
-## Checklist
-- [ ] Runs locally (README/Setup followed)
-- [ ] Notebook outputs cleared (or pre-commit used)
-- [ ] No large data added to repo
-- [ ] If MLflow used, runs are reproducible
+---
