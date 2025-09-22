@@ -1,3 +1,16 @@
 [flake8]
-max-line-length = 100
-extend-ignore = E203,W503
+# Gentle defaults for teaching
+max-line-length = 120
+
+# Tone down the nitpicks students hit most often
+extend-ignore =
+    E265,   # "#comment" vs "# comment" (style nit)
+    W391,   # blank line at end of file
+    E402    # imports not at top (common in quick demos)
+
+# Keep obviously useful rules
+# - E302/E305 (blank lines around defs) actually help readability, but we’ll allow students’ files below.
+
+# Give students extra leeway inside submissions folders
+per-file-ignores =
+    labs/*/submissions/*: E302,E305,E402,E501,F401,F841
