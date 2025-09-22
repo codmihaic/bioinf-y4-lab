@@ -59,9 +59,7 @@ Pași:
 ```bash
 labs/01_intro&databases/submissions/<github_handle>/ex01_multifasta_gc.py
 ```
-4. Completarea checklist-ului din șablonul PR (`week1_roster.md`).
-
-
+4. Completarea checklist-ului din șablonul PR.
 
 ## **Competențe:** 
 - Rularea mediului reproducibil (Codespaces/Docker).
@@ -69,6 +67,6 @@ labs/01_intro&databases/submissions/<github_handle>/ex01_multifasta_gc.py
 - Primele interogări și operații de bază pe secvențe biologice.
 
 ## Resurse și lecturi recomandate : 
-- [Fișa scurtă (One-Pager)](../../docs/lab_onepagers/01_intro&databases.md)  
+- [Fișa laborator](../../docs/lab_onepagers/01_intro&databases.md)  
 
 

@@ -67,13 +67,11 @@ It does not start a server; it just verifies import + logging to ./mlruns.
 
 ### Troubleshooting
 
-- UI opens but shows no runs
-
-Ensure you’re pointing the UI to the same store:
+1. UI opens but shows no runs
+- Ensure you’re pointing the UI to the same store:
+```
 --backend-store-uri file://$PWD/mlruns
-
-Re-run the smoke to create a run.
-
-- Port 5000 not reachable (Codespaces)
-
-Mark port 5000 as Public in the Ports panel.
+```
+- Rerun the smoke to create a run.
+2. Port 5000 not reachable (Codespaces)
+    - Mark port 5000 as Public in the Ports panel.
