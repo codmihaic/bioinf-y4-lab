@@ -1,0 +1,1 @@
+Choose a template from the selection box!
