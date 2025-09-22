@@ -1,0 +1,31 @@
+name: Validate PR Template
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  check-week1:
+    name: Check Week 1 roster template
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require Week 1 checklist for roster branches/titles
+        run: |
+          TITLE="${{ github.event.pull_request.title }}"
+          BRANCH="${{ github.event.pull_request.head.ref }}"
+          BODY="$(jq -r '.pull_request.body' < "$GITHUB_EVENT_PATH")"
+
+          needs_week1=false
+          # Heuristics: roster branch or title mentions Săptămâna 1
+          if echo "$BRANCH" | grep -qiE '(^|/)feat/roster-'; then needs_week1=true; fi
+          if echo "$TITLE"  | grep -qi 'săptămâna 1'; then needs_week1=true; fi
+          if echo "$TITLE"  | grep -qi 'week 1'; then needs_week1=true; fi
+
+          if [ "$needs_week1" = true ]; then
+            echo "This PR looks like a Week 1 roster PR. Verifying template..."
+            echo "$BODY" | grep -q "Săptămâna 1 — Roster PR" || {
+              echo "::error::Lipsește șablonul de PR pentru Săptămâna 1 (week1_roster.md). Alegeți șablonul corect din interfață (Choose a template)."
+              exit 1
+            }
+          else
+            echo "Not a Week 1 roster PR; skipping template check."
+          fi
