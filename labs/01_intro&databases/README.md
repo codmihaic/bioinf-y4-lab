@@ -48,14 +48,19 @@ Pași:
 **Completati si rulati**
 - `ex01_multifasta_gc.py` — **schelet** pentru multi-FASTA + GC (de completat în laborator).
 
-## Deliverables
+## Livrabile
 În PR trebuie să apară:
 
 1. O linie nouă în `labs/01_intro&databases/roster/handles.csv`.
 2. Un fișier `labs/01_intro&databases/<github_handle>_notes.md` care conține:
    - Confirmarea că ai rulat toate scripturile demo și exercițiul.
    - Un rezultat simplu observat (ex.: “GC fraction = 0.47”).
-3. Completarea checklist-ului din șablonul PR (`week1_roster.md`).
+3. Exercitiul completat, salvat in:
+```bash
+labs/01_intro&databases/submissions/<github_handle>/ex01_multifasta_gc.py
+```
+4. Completarea checklist-ului din șablonul PR (`week1_roster.md`).
+
 
 
 ## **Competențe:** 
