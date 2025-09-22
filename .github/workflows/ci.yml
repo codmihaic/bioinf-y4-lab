@@ -17,18 +17,44 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  smoke:
+  lint:
+    name: lint
     runs-on: ubuntu-latest
     permissions:
-         contents: read
-         packages: read
+      contents: read
+      packages: read
     container:
-         image: ghcr.io/bozdogalex/bioinf-y4-lab:base
+      image: ghcr.io/bozdogalex/bioinf-y4-lab:base
+    steps:
+      - uses: actions/checkout@v4
+      - name: flake8
+        run: flake8 labs
+
+
+  smoke:
+    name: smoke
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: read
+    container:
+      image: ghcr.io/bozdogalex/bioinf-y4-lab:base
     steps:
       - uses: actions/checkout@v4
       - name: Lint (only smoke)
         run: flake8 labs/00_smoke
       - name: Run smoke
         run: python labs/00_smoke/smoke.py
+
+  mlflow:
+    name: mlflow
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: read
+    container:
+      image: ghcr.io/bozdogalex/bioinf-y4-lab:base
+    steps:
+      - uses: actions/checkout@v4
       - name: MLflow smoke (no UI)
         run: python labs/00_smoke/mlflow_smoke.py --experiment "BIOINF-Y4 Demo"
