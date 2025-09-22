@@ -20,7 +20,7 @@ jobs:
   smoke:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/bozdogalex/bioinf-y4-lab:base
+      image: :base
     permissions:
       contents: read
       packages: read

@@ -11,7 +11,7 @@ Toate schimbările notabile sunt documentate aici.
 ## [0.1.1] – 2025-09-19
 ### Added
 - Dockerfile + `requirements.txt` (CPU-only).
-- `.devcontainer/devcontainer.json` folosind `ghcr.io/bozdogalex/bioinf-y4:base`.
+- `.devcontainer/devcontainer.json` folosind ``.
 ## [0.1.2] – 2025-09-19
 ### Added
 - CI: flake8 + script "smoke" rulate în containerul GHCR.

@@ -5,14 +5,14 @@ This guide shows two supported ways to run the labs **identically** everywhere:
 - **GitHub Codespaces** (fastest; pulls our prebuilt image from GHCR)
 - **Local Docker** (Windows/macOS/Linux)
 
-> The canonical environment is the prebuilt image: `ghcr.io/bozdogalex/bioinf-y4:base`.
+> The canonical environment is the prebuilt image: `ghcr.io/bozdogalex/bioinf-y4-lab:base`.
 
 ---
 
 ## Option A — GitHub Codespaces (recommended)
 
 1. On the repository page, click **Code → Create codespace on main**.
-2. Wait while it **pulls** the image `ghcr.io/bozdogalex/bioinf-y4:base`. (No build needed.)
+2. Wait while it **pulls** the image `ghcr.io/bozdogalex/bioinf-y4-lab:base`. (No build needed.)
 3. In VS Code (web), open the **Terminal** and run the smoke test:
    ```bash
    python labs/00_smoke/smoke.py
@@ -35,8 +35,8 @@ This guide shows two supported ways to run the labs **identically** everywhere:
 
 ### Windows PowerShell
 ```powershell
-docker pull ghcr.io/bozdogalex/bioinf-y4:base
-docker run -it --rm -p 8890:8888 -v "${PWD}:/work" -w /work ghcr.io/bozdogalex/bioinf-y4:base `
+docker pull ghcr.io/bozdogalex/bioinf-y4-lab:base
+docker run -it --rm -p 8890:8888 -v "${PWD}:/work" -w /work ghcr.io/bozdogalex/bioinf-y4-lab:base `
   bash -lc "jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --IdentityProvider.token='' --allow-root"
 ```
 Open: **http://localhost:8890/lab**  
@@ -44,8 +44,8 @@ New cell → `print("ok")`
 
 ### macOS / Linux bash
 ```bash
-docker pull ghcr.io/bozdogalex/bioinf-y4:base
-docker run -it --rm -p 8888:8888 -v "$PWD:/work" -w /work ghcr.io/bozdogalex/bioinf-y4:base \
+docker pull ghcr.io/bozdogalex/bioinf-y4-lab:base
+docker run -it --rm -p 8888:8888 -v "$PWD:/work" -w /work ghcr.io/bozdogalex/bioinf-y4-lab:base \
   bash -lc "jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --IdentityProvider.token='' --allow-root"
 ```
 Open: **http://localhost:8888/lab**
