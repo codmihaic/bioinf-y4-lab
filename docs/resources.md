@@ -1,8 +1,8 @@
 # 📂 Resources – BIOINF-Y4 Lab
 
 ## 📘 Textbooks
-- [*Network Science* – A.-L. Barabási (2016, Cambridge UP)](https://barabasi.com/networksciencebook/) – free online  
-- *Pattern Recognition and Machine Learning* – C. Bishop (2006, Springer)  
+- [*Network Science* – A.-L. Barabási (2016, Cambridge UP)](https://networksciencebook.com/chapter/1) – free online  
+- [*Pattern Recognition and Machine Learning* – C. Bishop (2006, Springer)](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)  
 - *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* – A. Géron (2019, O’Reilly)  
 - *Introduction to Bioinformatics* – A. Lesk (2019, Oxford UP)  
 - *Networks: An Introduction* – M. Newman (2010, Oxford UP)  
