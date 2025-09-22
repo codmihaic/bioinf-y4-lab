@@ -14,18 +14,18 @@
 - 03 — NGS: [labs/03_formats&NGS](labs/03_formats&NGS)
 - 04 — Phylogenetics: [labs/04_phylogenetics](labs/04_phylogenetics)
 - 05 — Clustering: [labs/05_clustering](labs/05_clustering)
-- 07 — WGCNA + Diseasome: [labs/06_wgcna](labs/06_wgcna)
-- 08 — Network Viz & GNN: [labs/07_network_viz](labs/07_network_viz)
-- 09 — Federated Learning: [labs/08_ML_flower](labs/08_ML_flower)
-- 10 — Drug Repurposing: [labs/09_repurposing](labs/09_repurposing)
-- 11 — Integrative + Digital Twin: [labs/10_integrative](labs/10_integrative)
-- 12 — Multi‑omics + Quantum : [labs/11_multiomics](labs/11_multiomics)
-- 13 — Generative AI : [labs/12_genAI](labs/12_genAI)
-- Presentations
+- 06 — WGCNA + Diseasome: [labs/06_wgcna](labs/06_wgcna)
+- 07 — Network Viz & GNN: [labs/07_network_viz](labs/07_network_viz)
+- 08 — Federated Learning: [labs/08_ML_flower](labs/08_ML_flower)
+- 09 — Drug Repurposing: [labs/09_repurposing](labs/09_repurposing)
+- 10 — Integrative + Digital Twin: [labs/10_integrative](labs/10_integrative)
+- 11 — Multi‑omics + Quantum : [labs/11_multiomics](labs/11_multiomics)
+- 12 — Generative AI : [labs/12_genAI](labs/12_genAI)
+- Assignment Presentations
 
 ---
 
-> Full onboarding (screenshots, tips): **[Onboarding](docs/onboarding.md)**
+> Full onboarding (screenshots, tips): **[docs/onboarding.md](docs/onboarding.md)**
 
 ---
 
@@ -50,6 +50,8 @@ Supporting material and submission pack live under `docs/`:
 - [Changelog](docs/changelog.md) — changes across versions
 - [Policies](docs/policies.md) — third-party license references, repository policies
 - [Resources](docs/resources.md) — recommended readings/tutorials
+- [GA4GH](docs/GA4GH_primer) - ethical & technical standards for sharing biomedical data
+- [GDPR and Data policy](docs/GDPR_and_DataPolicy.md) 
 ---
 
 ## Contributing / Policies / Citation

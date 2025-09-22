@@ -22,7 +22,7 @@ docker run -it --rm -p 8890:8888 -v "${PWD}:/work" -w /work ghcr.io/bozdogalex/b
 ```
 Open http://localhost:8890/lab → run a cell: `print("ok")`
 
-## Part 1 — Databases competency
+## Part 1 — Databases 
 
 - Open an NCBI/TCGA/GEO/Ensembl record.
 - Extract **two fields** into a CSV.
@@ -31,3 +31,16 @@ Open http://localhost:8890/lab → run a cell: `print("ok")`
 Deliverables (PR contents):
 - `labs/01_databases/<yourname>/sample.csv`
 - A 2–3 line note in the PR describing the source record and fields.
+
+## Competency
+Students can query public bio data portals (e.g., NCBI/GEO/TCGA) and manage work via GitHub PRs.
+
+## Task
+Pick one GEO or TCGA record; extract **two fields** into a small CSV (≤10 rows), commit to `data/record.csv`, and submit via **Pull Request**.
+
+## Deliverable
+- `data/record.csv`
+- Short `NOTES.md` (≤10 lines): where you found the fields and why they matter.
+
+## Review
+Open a PR to the course repo. One sample PR will be merged into a `sandbox/` branch.
