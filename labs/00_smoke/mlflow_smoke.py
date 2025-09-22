@@ -5,7 +5,9 @@ import argparse
 import os
 import sys
 import time
+
 import mlflow
+
 
 def main() -> None:
     # Ensure repo root on sys.path so 'mlops' can be imported when run from labs/*
@@ -13,8 +15,8 @@ def main() -> None:
     if repo_root not in sys.path:
         sys.path.insert(0, repo_root)
 
-    # Import after sys.path fix (inside function avoids flake8 E402)
-    from mlops.mlflow_utils import start_run, log_params, log_metrics  # noqa: WPS433
+    # Import after sys.path fix
+    from mlops.mlflow_utils import start_run, log_params, log_metrics
 
     parser = argparse.ArgumentParser()
     parser.add_argument(

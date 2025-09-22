@@ -38,32 +38,32 @@ Pași:
 - fork repo → creează branch feat/roster-<handle>.
 - edit labs/01_intro&databases/roster/handles.csv → adaugă o singură linie.
 - git commit -m "Add <handle> to roster" → git push → creează Pull Request.
-- Completează checklist-ul PR.
+- Completează checklist-ul PR (șablonul week1_roster.md).
 
-**Checklist PR:**
- - Am rulat Partea 0 (Codespaces sau Docker) cu succes.
- - Am adăugat exact un rând în handles.csv, fără spații în github_handle.
- - PR trece verificările CI.
-Criterii de acceptare: format corect CSV + PR verde + PR îmbinat.
+## Partea 2 - Demo / Exercitii
+**Rulati**
+- `demo01_entrez_brca1.py` — căutare + descărcare BRCA1 (GenBank) și sumar GC.
+- `demo02_seq_ops.py` — operații de bază pe secvență (transcriere, traducere, GC, motif).
+- `dem03_dbsnp.py` — dbSNP: interogare rapidă și sumar.
+**Completati si rulati**
+- `ex01_multifasta_gc.py` — **schelet** pentru multi-FASTA + GC (de completat în laborator).
 
-### Cum să deschizi Pull Request-ul 
+## Deliverables
+În PR trebuie să apară:
 
-Folosește acest link pentru a crea PR-ul cu **checklist-ul pentru Săptămâna 1** încărcat automat:
+1. O linie nouă în `labs/01_intro&databases/roster/handles.csv`.
+2. Un fișier `labs/01_intro&databases/<github_handle>_notes.md` care conține:
+   - Confirmarea că ai rulat toate scripturile demo și exercițiul.
+   - Un rezultat simplu observat (ex.: “GC fraction = 0.47”).
+3. Completarea checklist-ului din șablonul PR (`week1_roster.md`).
 
-👉 [Deschide PR Săptămâna 1](https://github.com/bozdogalex/bioinf-y4-lab/compare/main...feat/roster-yourhandle?quick_pull=1&template=week1_roster.md)
 
-⚠️ Înlocuiește `roster-yourhandle` cu numele branch-ului pe care l-ai împins (exemplu: `feat/roster-popescuan`).
+## **Competențe:** 
+- Rularea mediului reproducibil (Codespaces/Docker).
+- Deschiderea și completarea corectă a unui PR (fork → branch → PR).
+- Primele interogări și operații de bază pe secvențe biologice.
 
+## Resurse și lecturi recomandate : 
+- [Fișa scurtă (One-Pager)](../../docs/lab_onepagers/01_intro&databases.md)  
 
-## Partea 2 - Demo Biopython - NCBI Entrez
-- Rulează:
-```bash
-python "labs/01_intro&databases/demo_entrez_brca1.py"
-```
-Efect: Descarcă un GenBank BRCA1 (H. sapiens), scrie data/brca1.gb și afișează rezumat. Aliniat cu instrumentele oficiale recomandate (NCBI/Entrez, Biopython).
-
-**Competențe:** 
-Studentul poate rula mediul reproducibil și poate deschide un PR corect (fork → branch → PR) — fundament pentru proiectul și temele ulterioare.
-
-**Lectură** : [01_intro&databases](../../docs/lab_onepagers/01_intro&databases.md)
 

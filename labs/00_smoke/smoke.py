@@ -7,7 +7,6 @@ import pandas as pd
 import polars as pl
 import sklearn
 
-
 def main() -> None:
     # minimal no-op uses to satisfy flake8 and verify imports work
     _ = np.array([1, 2, 3]).sum()
