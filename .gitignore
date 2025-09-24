@@ -13,6 +13,10 @@ Untitled*.ipynb
 # Data & results
 tools/
 data/*
+data/work/
+data/**/results/
+data/**/outputs/
+data/**/artifacts/
 results/
 outputs/
 artifacts/

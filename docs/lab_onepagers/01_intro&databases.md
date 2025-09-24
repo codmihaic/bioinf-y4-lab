@@ -17,9 +17,13 @@
    - `demo01_entrez_brca1.py`
    - `demo02_seq_ops.py`
    - `demo03_dbsnp.py`
-   - `ex01_multifasta_gc.py`  
+   - `ex01_multifasta_gc.py`
+   
+4. **Pregătire datastore personal:** 
+   - in data/work/<handle>/lab01/ 
+   - descărcare FASTA de la NCBI pentru exercițiul GC
 
-4. **Livrabile în PR**:  
+5. **Livrabile în PR** 
 
 ---
 
@@ -30,6 +34,10 @@
 
 ---
 
-## Resurse utile
-- [NCBI Entrez](https://www.ncbi.nlm.nih.gov/books/NBK25501/)  
-- [Biopython Tutorial](https://biopython.org/DIST/docs/tutorial/Tutorial.html)  
+## Resurse : 
+- [NCBI](https://www.ncbi.nlm.nih.gov/)  
+- [Ensembl Genome Browser](https://www.ensembl.org/)  
+- [dbSNP (NCBI)](https://www.ncbi.nlm.nih.gov/snp/)  
+- [TCGA (The Cancer Genome Atlas) Portal](https://portal.gdc.cancer.gov/)  
+- Carte: [Pevsner, *Bioinformatics and Functional Genomics*, 3rd ed., Wiley Blackwell, 2015](https://genetics.elte.hu/oktatasi_anyag/archivum/bioinfo/Bioinformatika_2018-2019/book.pdf)  
+- Carte: [Lesk, *Introduction to Bioinformatics*, 5th ed., Oxford University Press, 2019](https://edscl.in/pluginfile.php/3340/mod_folder/content/0/Introduction%20To%20Bioinformatics.pdf?forcedownload=1)  

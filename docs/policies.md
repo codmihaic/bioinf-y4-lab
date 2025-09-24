@@ -15,31 +15,39 @@ We welcome contributions from students, teaching assistants, and collaborators.
   - Lab/test files updated if relevant.  
   - Clear authorship attribution.  
 
-Pair work is encouraged: contributions may be co-authored.
+**Pair work is encouraged: contributions may be co-authored.**
+
+**AI-assisted Work**:
+- Use of AI tools (e.g. ChatGPT, Copilot) is **not forbidden** and may support learning  
+- However, any deliverable or contribution created with AI assistance must be:
+  - **explicitly acknowledged** (e.g. “fragment generated with ChatGPT, adapted by me”);  
+  - **reviewed and tested** by the student to ensure correctness and understanding.  
+- Submitting fully AI-generated work without attribution or comprehension goes against the academic principles of this lab.  
 
 ---
 
-## 📜 License
+## License
 - All original code and teaching materials are distributed under the **MIT License** (see [LICENSE](../LICENSE)).  
 - Third-party libraries remain under their original licenses (see [LICENSES.md](LICENSES.md)).  
 
 ---
 
-## 📓 Changelog
+## Changelog
 We maintain a [CHANGELOG.md](changelog.md) documenting major updates:  
-- >60% of labs are refreshed each academic year.  
 - Major new labs (e.g., **Generative AI, Federated Learning, Graph AI**) are tagged as `new`.  
 
 ---
 
-## 🔐 GDPR & Data Policy
+## GDPR & Data Policy
 - All labs use **publicly available datasets** (e.g., TCGA, GEO, NCBI).  
 - No student uploads of personal or clinical data are permitted.  
-- When working with synthetic datasets (e.g., federated learning demos), files are clearly labeled as **synthetic**.  
+- When working with synthetic datasets (e.g., federated learning demos), files are clearly labeled as **synthetic**.
+- 
+See [docs/GDPR_and_DataPolicy.md](GDPR_and_DataPolicy.md) for details.
 
 ---
 
-## 🌍 GA4GH Primer
+## GA4GH Primer
 This lab aligns with the **Global Alliance for Genomics and Health (GA4GH)** standards for data ethics and interoperability.  
 
 Students are introduced to:
@@ -55,4 +63,4 @@ See [docs/GA4GH_primer.md](GA4GH_primer.md) for details.
 - Best student projects may be merged into this repository.  
 - Annual updates ensure labs remain aligned with industry and research practice.  
 - The BIOINF-Y4 Lab is connected with **Oncohelp clinical collaborations** and may directly support MSc dissertations and PhD research.
-- Auto-generated Python license inventory: see [LICENSES-THIRD-PARTY.md](LICENSES-THIRD-PARTY.md).
+- Python license inventory: see [LICENSES-THIRD-PARTY.md](LICENSES-THIRD-PARTY.md).

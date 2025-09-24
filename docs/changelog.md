@@ -92,4 +92,8 @@ Toate schimbările notabile sunt documentate aici.
 -`dev.ps1`
 -`docs/onboarding.md`
 -`labs/01_intro&databases/README_Lab1.md`
+## [0.5.1] 2025-09-24
+### Complete lab 1
+## [0.5.2] 2025-09-24
+### Complete lab 2
 

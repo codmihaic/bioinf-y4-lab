@@ -1,6 +1,6 @@
 # Săptămâna 1 — Databases & GitHub 
 
-Scopuri:
+## Scopuri:
 1) Toți studentii rulează același mediu (Codespaces sau Docker + Jupyter).
 2) Toți studentii trec o dată prin fluxul GitHub (fork → branch → PR) cu un task scurt.
 
@@ -45,8 +45,15 @@ Pași:
 - `demo01_entrez_brca1.py` — căutare + descărcare BRCA1 (GenBank) și sumar GC.
 - `demo02_seq_ops.py` — operații de bază pe secvență (transcriere, traducere, GC, motif).
 - `dem03_dbsnp.py` — dbSNP: interogare rapidă și sumar.
+
 **Completati si rulati**
-- `ex01_multifasta_gc.py` — **schelet** pentru multi-FASTA + GC (de completat în laborator).
+- `ex01_multifasta_gc.py` — **completați TODO-urile de descărcare FASTA (Entrez) și rulați calculul GC pe fișierul DESCĂRCAT**. 
+  - Exemplu (interogare):  
+    `python labs/01_intro&databases/ex01_multifasta_gc.py --email student@example.com --query "TP53[Gene] AND Homo sapiens[Organism]" --retmax 3 --out data/work/<handle>/lab01/my_tp53.fa`
+  - Exemplu (accession):  
+    `python labs/01_intro&databases/ex01_multifasta_gc.py --email student@example.com --accession NM_000546 --out data/work/<handle>/lab01/nm000546.fa`
+
+_Notă: salvați fișierele proprii în `data/work/<handle>/lab01/`. Acest folder este ignorat de git — NU încărcați datele în repo._
 
 ## Livrabile
 În PR trebuie să apară:
@@ -61,12 +68,24 @@ labs/01_intro&databases/submissions/<github_handle>/ex01_multifasta_gc.py
 ```
 4. Completarea checklist-ului din șablonul PR.
 
-## **Competențe:** 
+## Săptămâna următoare
+- Vom folosi fișierele FASTA descarcate pentru a realiza alinieri de secvențe (global și local, NW/SW).
+- Vezi [Săptămâna 2 — Sequence Alignment](../02_alignment/README.md)
+
+## Competențe: 
 - Rularea mediului reproducibil (Codespaces/Docker).
 - Deschiderea și completarea corectă a unui PR (fork → branch → PR).
 - Primele interogări și operații de bază pe secvențe biologice.
 
-## Resurse și lecturi recomandate : 
-- [Fișa laborator](../../docs/lab_onepagers/01_intro&databases.md)  
+
+## Resurse : 
+- [Fișa laborator](../../docs/lab_onepagers/01_intro&databases.md) 
+- [NCBI](https://www.ncbi.nlm.nih.gov/)  
+- [Ensembl Genome Browser](https://www.ensembl.org/)  
+- [dbSNP (NCBI)](https://www.ncbi.nlm.nih.gov/snp/)  
+- [TCGA (The Cancer Genome Atlas) Portal](https://portal.gdc.cancer.gov/)  
+- Carte: [Pevsner, *Bioinformatics and Functional Genomics*, 3rd ed., Wiley Blackwell, 2015](https://genetics.elte.hu/oktatasi_anyag/archivum/bioinfo/Bioinformatika_2018-2019/book.pdf)  
+- Carte: [Lesk, *Introduction to Bioinformatics*, 5th ed., Oxford University Press, 2019](https://edscl.in/pluginfile.php/3340/mod_folder/content/0/Introduction%20To%20Bioinformatics.pdf?forcedownload=1)  
+
 
 

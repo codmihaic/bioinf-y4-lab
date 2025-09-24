@@ -1,10 +1,22 @@
-jupyter
-numpy
-pandas
-polars
-duckdb
-scikit-learn
-networkx
-matplotlib
-flake8
+# IDE / notebooks
+jupyterlab>=4.2,<4.3
+
+# Core scientific stack
+numpy>=1.26,<2.2
+pandas>=2.2,<2.3
+polars>=1.0,<1.2
+duckdb>=1.0,<1.2
+matplotlib>=3.9,<3.10
+
+# ML & graphs
+scikit-learn>=1.5,<1.6
+networkx>=3.3,<3.4
+
+# Lint
+flake8>=7.0,<7.1
+
+# Tracking
 mlflow>=2.14,<3
+
+# Bioinformatics (needed since Lab 1)
+biopython>=1.84,<1.86
