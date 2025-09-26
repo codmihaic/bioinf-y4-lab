@@ -1,10 +1,10 @@
-# ⚖️ Governance & Policies – BIOINF-Y4 Lab
+# Governance & Policies – BIOINF-Y4 Lab
 
 This document describes the governance, contribution, and data-use policies for the **BIOINF-Y4 – Big Data in Health and Bioinformatics Laboratory** repository.
 
 ---
 
-## 🧑‍🤝‍🧑 Contributing Guidelines
+## Contributing Guidelines
 We welcome contributions from students, teaching assistants, and collaborators.
 
 - Fork the repository and create a feature branch.  
@@ -59,7 +59,7 @@ See [docs/GA4GH_primer.md](GA4GH_primer.md) for details.
 
 ---
 
-## 📈 Sustainability & Continuity
+## Sustainability & Continuity
 - Best student projects may be merged into this repository.  
 - Annual updates ensure labs remain aligned with industry and research practice.  
 - The BIOINF-Y4 Lab is connected with **Oncohelp clinical collaborations** and may directly support MSc dissertations and PhD research.

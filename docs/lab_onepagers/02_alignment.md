@@ -16,7 +16,7 @@
 
 ---
 
-## Competențe dobândite
+## Competențe 
 - Diferențierea între aliniere globală și locală.  
 - Utilizarea Biopython pentru aliniere rapidă.  
 - Înțelegerea și implementarea algoritmilor NW și SW.  

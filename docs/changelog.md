@@ -96,4 +96,9 @@ Toate schimbările notabile sunt documentate aici.
 ### Complete lab 1
 ## [0.5.2] 2025-09-24
 ### Complete lab 2
-
+## [0.5.3] 2025-09-26
+### Complete lab 3
+### Modified
+-`labs/lab03_formats&NGS`
+-`ci.yml`
+-`.gitignore`

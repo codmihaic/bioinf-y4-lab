@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use Bioinformatics and Functional Genomics Lab, please cite this work."
-title: "Bioinformatics and Functonal Genomics"
+title: "Bioinformatics and Functional Genomics"
 version: "2025"
 authors:
   - family-names: "Bozdog"
@@ -15,4 +15,4 @@ keywords:
   - federated learning
   - quantum computing
   - healthtech
-date-released: "2025-09-19"
+date-released: "2025-09-30"

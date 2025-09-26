@@ -28,6 +28,7 @@ jobs:
         run: |
           python -m compileall -q "labs/01_intro&databases"
           python -m compileall -q "labs/02_alignment"
+          python -m compileall -q "labs/03_formats&NGS"
 
   smoke:
     name: smoke
