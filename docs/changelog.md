@@ -102,3 +102,9 @@ Toate schimbările notabile sunt documentate aici.
 -`labs/lab03_formats&NGS`
 -`ci.yml`
 -`.gitignore`
+## [0.5.4] 2025-09-26
+### Complete lab 4
+### Added
+-`labs/lab04_phylogenetics`
+### Modified
+-`ci.yml`
