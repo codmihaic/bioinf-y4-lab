@@ -114,3 +114,9 @@ Toate schimbările notabile sunt documentate aici.
 -`labs/lab05_clustering`
 ### Modified
 -`ci.yml`
+## [0.5.6] 2025-09-26
+### Complete lab 6
+### Added
+-`labs/lab06_wgcna`
+### Modified
+-`ci.yml`

@@ -31,6 +31,7 @@ jobs:
           python -m compileall -q "labs/03_formats&NGS"
           python -m compileall -q "labs/04_phylogenetics"
           python -m compileall -q "labs/05_clustering"
+          python -m compileall -q "labs/06_wgcna"
 
   smoke:
     name: smoke
