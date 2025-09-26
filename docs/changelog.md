@@ -108,3 +108,9 @@ Toate schimbările notabile sunt documentate aici.
 -`labs/lab04_phylogenetics`
 ### Modified
 -`ci.yml`
+## [0.5.5] 2025-09-26
+### Complete lab 5
+### Added
+-`labs/lab05_clustering`
+### Modified
+-`ci.yml`

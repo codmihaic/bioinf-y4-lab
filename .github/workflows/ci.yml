@@ -30,6 +30,7 @@ jobs:
           python -m compileall -q "labs/02_alignment"
           python -m compileall -q "labs/03_formats&NGS"
           python -m compileall -q "labs/04_phylogenetics"
+          python -m compileall -q "labs/05_clustering"
 
   smoke:
     name: smoke

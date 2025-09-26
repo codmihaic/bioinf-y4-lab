@@ -15,7 +15,7 @@ Vom compara rezultatele cu un MSA realizat online pentru a observa regiunile con
 
 ---
 
-## Partea 1 — Distanțe și arbori filogenetici
+## Hands-on — Distanțe și arbori filogenetici
 **Rulați**  
 - `demo01_distance_matrix.py` — calculul unei matrice de distanțe pe un multi-FASTA (Hamming/p-distance).  
 
