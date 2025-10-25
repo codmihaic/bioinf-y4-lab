@@ -1,0 +1,14 @@
+Input VCF: data/work/codmihaic/lab03/sample.vcf
+Processed: 2
+
+=== Sample 1 ===
+CHROM:         #CHROM  POS: POS  ID: ID
+PubMed: chr        #CHROM:POS AND TP53
+Results: (nothing found)
+
+=== Sample 2 ===
+CHROM:         17  POS: 7676158  ID: rs1042522
+PubMed: rs1042522
+- [1] PMID 41079121: Association of folate metabolism-related enzymes (MTHFR, MYD88, and TP53) and their single nucleotide polymorphisms with breast cancer susceptibility in women from Southwest China: a Bayesian network approach.
+- [2] PMID 40981232: Cytogenetic and Molecular Genetic Driven Prediction of Response to First-Treatment and Prognosis in Acute Myeloid Leukemia: A Retrospective Cohort Study.
+- [3] PMID 40729076: Association of P53 Codon 72 Polymorphism with Ovarian Cancer: An Institutional Study.
