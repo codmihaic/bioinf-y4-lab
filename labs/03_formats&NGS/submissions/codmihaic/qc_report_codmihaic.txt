@@ -1,7 +1,5 @@
 FASTQ QC report for: data/work/codmihaic/lab03/your_reads.fastq.gz
-Total reads: 7178576
-Average read length: 36.00
-Proportion of 'N' bases: 0.002382
-Average Phred score (per base): 28.01
-
-Assumptions: Sanger FASTQ (Phred+33).
+Reads: 7178576
+Mean length: 36.00
+N rate: 0.002382
+Mean Phred: 28.01

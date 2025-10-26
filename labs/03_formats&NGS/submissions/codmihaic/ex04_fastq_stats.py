@@ -2,58 +2,57 @@
 # Comanda:
 #   python labs/03_formats\&NGS/submissions/codmihaic/ex04_fastq_stats.py
 
-import sys, gzip
+import gzip
 from pathlib import Path
+from Bio import SeqIO
 
-def phred_sanger(qual_line: str):
-    return [ord(c) - 33 for c in qual_line.strip()]
+# TODO: înlocuiți <handle> cu username-ul vostru GitHub
+handle = "codmihaic"
+in_fastq_plain = Path(f"data/work/{handle}/lab03/your_reads.fastq")
+in_fastq_gz    = Path(f"data/work/{handle}/lab03/your_reads.fastq.gz")
+out_report     = Path(f"labs/03_formats&NGS/submissions/{handle}/qc_report_{handle}.txt")
+out_report.parent.mkdir(parents=True, exist_ok=True)
 
-def main():
-    handle = "codmihaic" #handle
-    in_fastq = Path(f"data/work/{handle}/lab03/your_reads.fastq.gz")
-    out_report = Path(f"labs/03_formats&NGS/submissions/{handle}/qc_report_{handle}.txt")
-    out_report.parent.mkdir(parents=True, exist_ok=True)
-    if not in_fastq.exists():
-        print(f"Error! {in_fastq} doesn't exist!")
-        return
+def parse_fastq_stream(path: Path):
+    if path.suffix == ".gz":
+        with gzip.open(path, "rt") as fh:
+            for rec in SeqIO.parse(fh, "fastq"):
+                yield rec
+    else:
+        with open(path, "rt") as fh:
+            for rec in SeqIO.parse(fh, "fastq"):
+                yield rec
 
-    total_reads = total_bases = total_N = total_phred = 0
-    with gzip.open(in_fastq, "rt", encoding="utf-8", errors="replace") as fh:
-        while True:
-            h = fh.readline()
-            if not h:
-                break
-            seq = fh.readline().strip()
-            _ = fh.readline()  # plus
-            qual = fh.readline().strip()
-            if not seq or not qual:
-                break
+in_path = in_fastq_plain if in_fastq_plain.exists() else in_fastq_gz
+if not in_path or not in_path.exists():
+    raise FileNotFoundError("File not found!")
 
-            total_reads += 1
-            L = len(seq)
-            q = phred_sanger(qual)
-            if len(q) != L:
-                Lmin = min(L, len(q))
-                seq, q, L = seq[:Lmin], q[:Lmin], Lmin
-            total_bases += L
-            total_N += seq.count('N') + seq.count('n')
-            total_phred += sum(q)
+num_reads   = 0
+total_len   = 0
+total_n     = 0
+total_phred = 0
 
-    avg_len = (total_bases / total_reads) if total_reads else 0.0
-    prop_N = (total_N / total_bases) if total_bases else 0.0
-    avg_phred = (total_phred / total_bases) if total_bases else 0.0
-    
-    lines = [
-        f"FASTQ QC report for: {in_fastq}",
-        f"Total reads: {total_reads}",
-        f"Average read length: {avg_len:.2f}",
-        f"Proportion of 'N' bases: {prop_N:.6f}",
-        f"Average Phred score (per base): {avg_phred:.2f}",
-        "",
-        "Assumptions: Sanger FASTQ (Phred+33).",
-    ]
-    out_report.write_text("\n".join(lines), encoding="utf-8")
-    print(f"Done!")
+# TODO: completați logica de agregare
+for rec in parse_fastq_stream(in_path):
+    seq = str(rec.seq)
+    qs  = rec.letter_annotations.get("phred_quality", [])
+    L   = len(seq)
+    if L == 0:
+        continue
+    num_reads   += 1
+    total_len   += L
+    total_n     += seq.upper().count("N")
+    total_phred += sum(qs)
 
-if __name__ == "__main__":
-    main()
+len_mean   = (total_len / num_reads) if num_reads else 0.0
+n_rate     = (total_n   / total_len) if total_len else 0.0
+phred_mean = (total_phred / total_len) if total_len else 0.0
+
+with open(out_report, "w", encoding="utf-8") as out:
+    out.write(f"FASTQ QC report for: {in_path}\n")
+    out.write(f"Reads: {num_reads}\n")
+    out.write(f"Mean length: {len_mean:.2f}\n")
+    out.write(f"N rate: {n_rate:.6f}\n")
+    out.write(f"Mean Phred: {phred_mean:.2f}\n")
+
+print(f"[OK] QC report -> {out_report.resolve()}")
