@@ -1,0 +1,46 @@
+Task1:
+  Am folosit date generate din fișierul fasta propriu, 10 secvente de cate 800 de nucleotide, care pot fi găsite în fișierul 
+  assign_seq.fasta din arhivă.
+  Rezultatele rulării taskul-ui 1:
+Sequences: ['gene_01', 'gene_02', 'gene_03', 'gene_04', 'gene_05', 'gene_06', 'gene_07', 'gene_08', 'gene_09', 'gene_10']
+Distance matrix:
+ [[0.      0.7325  0.75    0.77875 0.74375 0.76375 0.75375 0.735   0.76375
+  0.7575 ]
+ [0.7325  0.      0.745   0.7375  0.74375 0.77125 0.72875 0.7225  0.74
+  0.75125]
+ [0.75    0.745   0.      0.7475  0.74875 0.72875 0.73625 0.73125 0.73
+  0.7525 ]
+ [0.77875 0.7375  0.7475  0.      0.7525  0.765   0.7575  0.75    0.735
+  0.75625]
+ [0.74375 0.74375 0.74875 0.7525  0.      0.72125 0.7675  0.74    0.76
+  0.74875]
+ [0.76375 0.77125 0.72875 0.765   0.72125 0.      0.73625 0.7575  0.74625
+  0.72375]
+ [0.75375 0.72875 0.73625 0.7575  0.7675  0.73625 0.      0.74375 0.7525
+  0.7175 ]
+ [0.735   0.7225  0.73125 0.75    0.74    0.7575  0.74375 0.      0.75125
+  0.74625]
+ [0.76375 0.74    0.73    0.735   0.76    0.74625 0.7525  0.75125 0.
+  0.755  ]
+ [0.7575  0.75125 0.7525  0.75625 0.74875 0.72375 0.7175  0.74625 0.755
+  0.     ]]
+
+Task2:
+  Am rulat o variantă ușor modificată a ex01_phylo_NJ.py pe fișierul fasta generat la task-ul 1, obținând 
+  arborele care poate fi vizualizat în tree_codmihaic.png de aici. Observând rezultatul, se poate deduce 
+  că arborele NJ rezultat pe baza celor 10 secvențe (gene_01 … gene_10) arată bine echilibrat, cu ramuri 
+  de lungimi apropiate (distanțe 0.72–0.78). Lungimile mari ale ramurilor terminale au o variație moderată 
+  între secvențe. Totodată, arborele Nj ne arată existența a trei clustere majore (A, B, C). Distanțele medii 
+  mici (≈0.73–0.75) din interiorul fiecărui cluster prezintă o asemănare ridicată între secvențele componente, 
+  în timp ce valorile mai mari dintre clustere (≈0.76–0.78) arată o diferențiere clară între grupuri. Astfel, 
+  analiza NJ reflectă corect gradul de variabilitate din setul de date și modul în care secvențele s-au grupat 
+  filogenetic în funcție de asemănarea globală. 
+
+Task3:
+  Am incărcat online fișierul assign_seq.fasta pentru analiză pe Clustal Omega. Rezultatul se poate vedea în folderul 
+  msa, în fișierul clustalo.aln-clustal_num. Am folosit scriptul mark_conserved.py pentru a marca zonele conservate, 
+  iar rezultatul se poate găsi tot în folderul msa, în 4 fișiere:
+  - alignment_with_consensus.clw (alinierea și linia de consens sub fiecare bloc);
+  - conserved_regions.tsv (listează intervalele 100% conservate);
+  - conservation_per_column.csv (conservarea de pe fiecare poziție);
+  - conservation_plot.png (grafic cu scorul de conservare pe coloane).

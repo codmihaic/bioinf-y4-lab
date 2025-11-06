@@ -1,0 +1,338 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+gene_01      ------------------------------------------------------------	0
+gene_10      ------------------------------TCAG-------------------ATATTGC	11
+gene_03      ------------------------------------------------------------	0
+gene_05      ------------------------------------------------------------	0
+gene_06      CGGGACTCAAGCAATCTTCCCACCTTAGCCTCCTAAGTAGCTGGAACCACCACACCTGGC	60
+gene_08      ------------------------------------------------------------	0
+gene_04      -----------------------------AATGTAAGTAGAACGTTACTATTATAATATC	31
+gene_07      ------------------------------------------------------------	0
+gene_02      ------------------------------------------------------------	0
+gene_09      ------------------------------------------------------------	0
+                                                                         
+
+gene_01      ------------------------------------------------------------	0
+gene_10      ATTTTGTAAAA-AACATGAAGG----TAAAATCTTTGTTTCTTAAATTACTAATCAATGA	66
+gene_03      ---------------GTGTAGCCAAGA---------------------------------	12
+gene_05      --ATTGATATAT----------------TTTTTTAATTTACCCA----------------	26
+gene_06      TAATTTTTAAAATTTTTGTAGACAGGGTTATGCCATGTAACTCA----------------	104
+gene_08      ------------------------------------------------------------	0
+gene_04      TAATTTTCTGA-AATGCTAAGGTAAAAATTTTCCTATTTTA-------ACATTTCT--GA	81
+gene_07      ------------------------------------------------------------	0
+gene_02      ---------------TCACAGGTAGCTTGCTTCTAGTTTTT-------AT--CACG--AA	34
+gene_09      --------------------GTAAGC------CCTGTTTTT-------TT--A-------	18
+                                                                         
+
+gene_01      ------------------------------------------------------------	0
+gene_10      TAGTTGTACTTTGCCCATTCTATGCAGAATACAGTTCCATGAACCGTGGGGAGATGGAAA	126
+gene_03      --------CAGTTCTTCTTCAGTG--TGGCCC---------------------AGGG---	38
+gene_05      --------CGTTGCTTCTTCACTTAAAATGT-----------------------------	49
+gene_06      --------CGTTGCTTTTGAACTGCTGAGCTC---------------------AAGC---	132
+gene_08      ------------------------------------------------------------	0
+gene_04      AATTA-AGATGTATCTTATCATTG-AGTATAG----AC----------TGGGTATGGCTT	125
+gene_07      -----------------TTAAATGAGGTAATA----AC----------TGGAAAT-GCTT	28
+gene_02      ---TT---ATTTGGCTTTTCACTATAG----G----CC----------TCAAATGGGCTC	70
+gene_09      ----A---TGATAGCTTTTCTCAGCTG----C----TC----------ACGAATTGGTAA	53
+                                                                         
+
+gene_01      ------------------------------------------------------------	0
+gene_10      ATAACC-----------ATGTCCCAGCCTTCCAGGCAAGTCCCTGG------AAGGAA--	167
+gene_03      -----------------------AAGCCAAA-AGATTGGACACCTG------CT------	62
+gene_05      --------------------------------CTGTATGCCTCC----------------	61
+gene_06      -----------------------AGTCCTCCCCCGTTGGCCTCC----------------	153
+gene_08      -------------------------TCT-----TGCTCACCC-CTAAC------AAAA--	21
+gene_04      ATA--------------TTTACTCTTCC-----TTCCATCAGCCTGTCCCAACCTAAAAA	166
+gene_07      CAAACATGGTTCCTATCATGAGAAATCC-----TGCTTTCCGCCTAAATGTGCTGGA---	80
+gene_02      C---CA--------------A-AT---------------------GTCCCTTCATA----	87
+gene_09      T-TGCTA----------GTGAGAG---------------------GACCGGGCA------	75
+                                                                         
+
+gene_01      ------------------------------------------------------------	0
+gene_10      ----------------------------TGGCTTGGTA---CTCTCCCAGTGGTA---GT	193
+gene_03      -------------------------------CTAAGAG---CTCTACTAGGTGACATGAT	88
+gene_05      -------------------------------CACTGGT---CTCAG--------------	73
+gene_06      -------------------------------CAAAGTG---CTGGG--------------	165
+gene_08      ------------------------------------------------------------	21
+gene_04      CTATCATTACATTAAA-TTGATA-------TCTTAGAGTTGAAG---------AC-TGTT	208
+gene_07      -------------------AAAT-------TCCTGGTGCTGCAGAAC-AGGTGACCAGAG	113
+gene_02      CATTCTA--CAAAAAGAGTGTTTCCAACTT---------AGCTGA-------ATCA-GAG	128
+gene_09      --------------AGGAAGTTTTCTGCTTGCTTAAAGTCGCTCA-------GGCATGTG	114
+                                                                         
+
+gene_01      ------------------------------------------------------------	0
+gene_10      GA--GTGAGTTCTTGCTCTATGAAACATGAG--AGCTGGTTG-TTT-----------GAA	237
+gene_03      AT--GAATGG--AGAGGCTGAGTAATAGGAGGTGGCAGGTGT-TCA-G-------AGCAC	135
+gene_05      GA--GAAAGTTCTGATTCCTT-AATATGGCGAAGG---TCTT-TCCAT-------GACCC	119
+gene_06      AT-------TACTGGGG-----TTACAGGTG----------------T-------GAGCC	190
+gene_08      ------------------------------------------TACACTTAAAAGG-----	34
+gene_04      TAGAAGAAAGAA---------AT-----ACAGGAGC------TTCCCTAA-GTAGTTCAA	247
+gene_07      CAAAGGAAAGACAGG------GT-----GCAGAAGCCAAAAATTACCTT--GGAGAACAA	160
+gene_02      GAAAGTTTAAACTGT------GTGAGATGAAACTGCAAATT--GC-AA------------	167
+gene_09      GGCAGG-TTAACAGT------A---------AAAGCAATTTTTAC-CATGAAAT--ATTA	155
+                                                                         
+
+gene_01      ------------------------------------------------------------	0
+gene_10      AGCGCGTGGCACCCCTGGTGCCTGGAAGGCTGGGACAGGTAAGATTGCATCTCTGTGCTC	297
+gene_03      TGCATA------TTCAGGTTCCTGTTTT--------------CTCCTTATC--TTTTAGT	173
+gene_05      AGCTACACCCATCTCCTGAGCCTCTTCT--------------CTCACCATC--AATACAC	163
+gene_06      ACCGCCCTCAGCCTCCAGTTCCTTTTTT--------------TTTTCTTTT--TTTGAGA	234
+gene_08      --------------------------------------------------TGCTCAGC--	42
+gene_04      T-------------------------------------------------AACCCTAT--	256
+gene_07      AGCGCA----------TGTTAAGGT----TATTTTTGGA-TTCTAGGTTTATCTCTGC--	203
+gene_02      --AGCA----------TTTTCACATATAGCTTCTATAGT-TTCTAT-C----A---G---	203
+gene_09      AGACCG----------TTACCCCATCAAACCTTGACAGG-TTCTCGAC----TTTAGC--	198
+                                                                         
+
+gene_01      -------------TCC--CAG-----CACTT---TGGAAGGCTGAAGTGGGAGGATTGCT	37
+gene_10      TGCAGTCTCTGTCACA--CAGCAGG-CACTTAATGAGAAGGCTGCTGAA---TGAAAGAA	351
+gene_03      TATTGAA--------------ATTG-C-ATGAAT----------AAGA---------TAT	198
+gene_05      TTGAGCTT-TGTTCTC--CAGCTTT-CCCTGAACGG----GCCA---T---------GCT	203
+gene_06      CAGAGTCT-TGCTCCC------TTG-CCCAGGCTGGA-GTGCAGTGGC---------GCA	276
+gene_08      ------ATCATA--TC--ATAAAGATCCCATTTAAAT---------GTT-----------	72
+gene_04      GTATACATCAT---TCTTCTAA-------AG-TAGGG---------GAAGA-AGA-AGAT	294
+gene_07      TTGGTCTTCAGTTACCTGCAAGAGATCCATT-TAGGG---------GATTTTTGTTTGTT	253
+gene_02      ATAATATTCAGATTTTCACTATAGGCC---------------------------------	230
+gene_09      TATGTAATCAGCT--CCACAAAAAGTC---------------------------------	223
+                                                                         
+
+gene_01      TGAGGCCAGGAATTTGAGACCAGCCTGGGCAAAATAGTGAG---ACTCTGTTGCTTCAAA	94
+gene_10      TACTTC----------CAACCAGCTTG-GA--------------GCCCAAATGCAGGTTC	386
+gene_03      AT---------------------ATTT-AT--------------ATACATTATCAT----	218
+gene_05      TA---------------------CTGT-TC--------------TTTCTAAGGCTT----	223
+gene_06      AT---------------------CTTG-GC--------------TCACTA---CAA----	293
+gene_08      ---T------------------------------------------ACATTTGATAAAA-	86
+gene_04      AA------------------------------------------AAACAAAGATCA-TC-	310
+gene_07      TTTAAC------------------GATAGCTTTATTGAGATATAATTCATATGCCA-TA-	293
+gene_02      ------------------------------------------------------------	230
+gene_09      ------------------------------------------------------------	223
+                                                                         
+
+gene_01      ACCCTT----------------TTGAA-------------------------------AA	107
+gene_10      TCCCTGAAGTTCTGACCTCACGTTGTGGGCA---CTG-------TGGGCTTCCATGC---	433
+gene_03      ----------AA-----ATTTTTTGTTTTAAATACAG-------TG----------AAAA	246
+gene_05      ----------CCAAAGCACCTGTTGTTTGCTCTGCCT-------AGAACACCCCTGTACC	266
+gene_06      ----------CCTCTGCCC-------------------------------CCCAGGTTCA	312
+gene_08      -----TTT----TCTCAGT-CTTTTTTTTTGAAACAGGGTCCTTTGTC--ACCCAGGCTT	134
+gene_04      -----AATGTACAGTCTGG-CTGATA-GACGTAG------CCTAAGTATT---A-----T	349
+gene_07      -----AA-----AGTCACT-CTTTTAAAATGTTT------CCGGTATATTCACAAGGCTG	336
+gene_02      ----------------------------------------------------------TC	232
+gene_09      ------------------------------------------------------------	223
+                                                                         
+
+gene_01      -----AT-----------TAACTAACCG-----------GGC------------------	122
+gene_10      ---ACATG-------TCCACACCACCCG-----------TGCACCCAC----TTCCTTCC	468
+gene_03      AATAAATGTA---------------AAG-----------TGATCAAGTGAAAAGTCTTCC	280
+gene_05      TTCTTATTTTCCCATCTCACTCTTCCCT-----------GACT-----------------	298
+gene_06      AACACTTGA----AGATCA-ACCTCCCA-----------GGCTCAAGTGATCCTCCTGCC	356
+gene_08      GGCGT-----------------------------------GCTG------TGATGCA---	150
+gene_04      TGCAGAATATCATAGTCCATATTATCAA------TTTCCAGCAGATG-------------	390
+gene_07      TGCAGCCT-TCCCTGTCCTTGATTCCAGTCTGAGTTTTTAACTGAAGGGATAAGGAG---	392
+gene_02      TGTGGACTAT---------------------G--------------------A-------	244
+gene_09      TGCATACATA------------------TATG--------------------T-------	238
+                                                                         
+
+gene_01      -----ATGGCGCCATGCGCCTATAATC----------TTAGCTACAGGGGAGG-A-TCTT	165
+gene_10      TGGACCTG-AGCAGAGCCCCACTTTCCAGCTC------CTGCCTGTGAGGGGATAACCA-	520
+gene_03      TTAACATCTCCCACACCTCCCCTTGTCAGAAGATTGTTTTACCATTTGGTAGAGAGCCTT	340
+gene_05      -T-------TTCAGGCCTCACCTTAGATGTTA------CTTCCTCTAG----GAAGCCTT	340
+gene_06      TC-------AGTACTCCACCCCTTTGTAGCTG------ATACTA----------------	387
+gene_08      --GTCATG--GCTTACCACAGCCTTGAACCTG-----AGCAC----AAGAGATCCTCCCA	197
+gene_04      ---GCATC--TCA---CACTGTTAAGT---------------------------------	409
+gene_07      --GACCAC--GCTTTCCCCAGACTAGAACCGC-----GGGCC----AGGGGGCGATTCCG	439
+gene_02      -----------AATGTCCCTTCATAG----GT-----TATACAAAAAGG-----------	273
+gene_09      ----------GTGTGCACCTGCATACACACAT-----AAATCTGTTTGGGGGCATATCT-	282
+                             . *    :                                    
+
+gene_01      TTGAGCCCAGGAGTTCGAGGCTGCAGTGAGCTATGATCGTGCTATTTCAGCCTGGGTGAC	225
+gene_10      ----------------------------------------------GGCCCCTGGGACCC	534
+gene_03      CTAA------------------------------A-------------------------	345
+gene_05      CTCA------------------------------GA--------TTC---CCTGTGACC-	358
+gene_06      --CA------------------------------GA--------TACACACCAGCGTGCC	407
+gene_08      C-CTGTCT------CCTGAGTAGCT------------AGGACTATAGGTGC----ACACC	234
+gene_04      --TAGTCA------T---------------------------------------------	416
+gene_07      CTGAGTCA------CCGCGG--------------------GCGCCTGGTGC----GCGGC	469
+gene_02      ---------------------------------------------TGTTTCCAACATGCT	288
+gene_09      ATTTAA---------CGTG---------------------GCAAAAGTTTTCTTTTTGCC	312
+                                                                         
+
+gene_01      AGAGTGACACCCTATC------TCAAAAAAAAAAACTTTTTTTGATA------CGTCTAT	273
+gene_10      ACAGCTCCAGC--AGCTGGAATTCAGAGTTTATGACCTGC-------------TGTT-TT	578
+gene_03      -------CAAG--TTC------TGTGTGTTTATGATATACATTT--AGGGTGTAGTT-TT	387
+gene_05      -------CCAC--TTC------TCTGGG-------TCTCCAAAGCTCCATAGACTTT-TC	395
+gene_06      -------CAGC--TAC------TTTTTAAATATT-TTTACAGAGAT-----GCAGTC-TC	445
+gene_08      AT----------------------------------------------------------	236
+gene_04      TGAGGA--------GC-------CTATGGGA-TGTCCTTGCTTG----------------	444
+gene_07      GGCGGA--------GC-------CCG------GGACCTTCCTTG----------------	492
+gene_02      GAATGA--------AA-------ATAAAGATTTAACTTTGTGAG----------------	317
+gene_09      AAAAAA--------AA-------AAAAAAA--------AAAAAA----------------	333
+                                                                         
+
+gene_01      ACTTTTTA---------ACCACTTATTTCTT-----TTTTTTTTTTGAGACAGAG----T	315
+gene_10      CCACATTCCCCCTCCCTCCCCCTCAGGACCTGCACCC-------CACTGCACGGC----A	627
+gene_03      CCT--------CTTA--------CACAACTATAGTTA---TACTATAAGTA---------	419
+gene_05      CCAGCATAGCCCTCC--------CTGGTCATT----------------------------	419
+gene_06      ACTATGTTGCCCAGG--------CTGGTCTTTTTTTTTTTTTTTTTGAGATGGAA----T	493
+gene_08      ------CACACCTGGCTAA--------TTTTT-----TATTTTTTGTAGA--GATGATGT	275
+gene_04      ---GATAACACATGGAACT--------CCA--------------AATTGT--GCT-----	472
+gene_07      ---GCTGCCCCCTAGC------------------------------GAGG--GCC-----	512
+gene_02      ---ATGAACCCA-CACATC--------ACAAA-----GCATTTTTATAGATAGATTTTCT	360
+gene_09      ---AAAAGCCCAAAACTCC--------TCTTT-----TTCTCTTTCCAGGAAGAA-----	372
+                                                                         
+
+gene_01      C---------TCGCTCTGTCACTTAGG-----CTGGAGTGCAGTGGTGCAATGTCGGCTC	361
+gene_10      C---------CTTCTA--TTCTGCTGTCATGGCC--------------------------	650
+gene_03      ----------------TGTATTCTAGGCAGGGCATGGTAGCTTATG-----TCTGTAATC	458
+gene_05      ------------------------------------------------------------	419
+gene_06      C---------TTACTGTATCACCCAGGCTGG-----AGTGCAATGGCGTAATCTTGCCTC	539
+gene_08      C---------TTACTGTGTTACCCAGGCTGGTCTTCTGGTCTCAAG----------CCAT	316
+gene_04      --------------TGTGTTTCATGAG---------AGTACATTTG----------CCAG	499
+gene_07      ------------GCAGCGCAGCCTGAG---------A---CACCCG----------CCGG	538
+gene_02      CTAGTTTTTATTGCAGAATATTCAATTTCATACTATAGGCCTCA----------------	404
+gene_09      ----------ATGGTAAA------ATTTCTA-----------AA----------------	389
+                                                                         
+
+gene_01      ACTGCAGCCTCCACCTCCCGGA-TTC---------TTCT-----------------GCCT	394
+gene_10      -CAGATCTCTG------------TTC---------ATCTG--------------------	668
+gene_03      CCAACACTTTGGGAGGCT--GA-GGC---------AGGAG--G------ATCGC----AT	494
+gene_05      -------------------------------------CTG--T------GTGGCAG---T	431
+gene_06      ACTGCAACCTCTGCAGCCCAGG-TTC---------AACTG--A------TTCTCCTGCCT	581
+gene_08      CCTCCTCCCTCGGGCTCCCAAAGTGCTGAGATTACAGGTGTGACCCACCGTGCCCAGCGT	376
+gene_04      C--------ACAGTCACCTAGAATG-----------AG----AATTTCTGTAACTAGCCT	536
+gene_07      GGCCGCTCCACGGCCGTCG-GATTT---AG---ACTGG----AAGCTCGGTCCAGGTCCC	587
+gene_02      ---------ATTTGCTCCAAAATTTCACC-------------------------------	424
+gene_09      ---------TGATGCTCCACATGTGGAACAAATT--------------------------	414
+                                                                         
+
+gene_01      CAGC--------------------------------------------CTCCAGAGTAGC	410
+gene_10      ------------------------------------------------------------	668
+gene_03      GATC----------------------------------------------CCAAAA----	504
+gene_05      GAGC------------------------------------------TCTCCCTGAG-AGT	448
+gene_06      CAG-------------------------------------------CCTCCCGGTGTAGC	598
+gene_08      CAGCTTTATTTTT------------TTAATGCTGACTTACTGCAGAAGGCCCAAGGGCCA	424
+gene_04      CAGCTTGTGGTCAC---TA--AGA----------------------TTGCCCACAAGCAC	569
+gene_07      CAGCTTGATGCGCCCGCGG--TGTAGGAGACCAGCCCGACTCGA-GCTTCCCCTGAGCCC	644
+gene_02      ----TTGTAGATTCTACAAAAAGAATATTT-----CC----------AACCCGCTGAA--	463
+gene_09      CTGTTATTAGCAATGGAAATAAGACAATAA-----CA----------GTCTCTCAATA--	457
+                                                                         
+
+gene_01      TGGGATT----ACAGGCCCCCGCTGCCA--------------------------------	434
+gene_10      ------------------------------------------------------------	668
+gene_03      ------G----GCCAAGACCAGCCTGGGCCA-TATA--------------GTGA------	533
+gene_05      GGGGACT----TCATTGGCCTGCCTCATACTGTTTA--------------GTGGTGGTCG	490
+gene_06      TGGGATT----ACAGGTGCCTGCCACTG--------------------------------	622
+gene_08      GTGC-----AGGCAGCATCTGGCCAGAACCTGTGTTTGTGTGTGTGTGTGTGTGTGTGTG	479
+gene_04      TTAG-----TATTTTCAG-----CAGAACCAAAGCATA-GTGC-----------------	601
+gene_07      CTGGACTCTTGACTTCAG-----CAGGGCCTGGGT-------------------------	674
+gene_02      ----------------------TCAAAACCGATGTTCAA--TTCTGTGAGATGAT-----	494
+gene_09      ----------------------CA---GGCTACGTTCAAGATTCTAAATGTGG-------	485
+                                                                         
+
+gene_01      --------------------CACCTGGCTA---------------ATATTTGTATTTTTA	459
+gene_10      ------------------------------------------------------------	668
+gene_03      --------------------GACTCT-------------------------GTTTCTACA	548
+gene_05      ----------TAGGTGGGTTCGCTCA---T---------------ATATTGGTATCAAAA	522
+gene_06      --------------------CGCCCAGCTA---------------ATTTTTGTATCTTTA	647
+gene_08      TGTGTGTGTGTTTGTGTGAGATTTAGGCATTAGCACGGGCATCCTGGGTGTGTGTGTA--	537
+gene_04      ------------------------------------------------------------	601
+gene_07      ------------------------------------------------------------	674
+gene_02      -------------------ATGCAAAGCTTTTTCACAGATATCCTGTT------------	523
+gene_09      ------------------------AAACCTATTCATAGGAAGCTGGTA-TTGTGTGATTT	520
+                                                                         
+
+gene_01      GT--AGAGACGGGGTTTCACCATGTTGGCCAGGCTGCTGTCAAACTCCTGAC---C----	510
+gene_10      ------------------------------------------------------------	668
+gene_03      ATAATAATAAGAAGAATAATTAGCTGGGCATGGTGGCA----CGTGCCTGTAGTTCCAGC	604
+gene_05      TT----------GGATGTTCCAGCTGGG----GGTGGTGGTGCACACTTGTAGTCCTTGC	568
+gene_06      GTA--GAGATGAGGTTTCACTATCTTGGCCAGGCTGGTCTTGAAC---TGCTGACCTCGT	702
+gene_08      --------TCTGTGT------GTGTGATGATGTTTGAAGGCATTAGCTCG-----GTGGC	578
+gene_04      ----------------------------ACATTTTAATGGCAATGACT------------	621
+gene_07      ------------------------------------------------------------	674
+gene_02      --------TCTAGTTTTTATCCTGTGGTGT------TTGGTTT-TTCACTA----TAAGC	564
+gene_09      GTGGAA-TTCAAAGAAATGTCCTGGGGTCAAGATTTTTGGAAA-GTCATA----------	568
+                                                                         
+
+gene_01      ------------TC-----AGGTGATCTGCCCACCTCAGCCTCCCAAAGTGCTGGGATTA	553
+gene_10      ---------------------------------------------------------CTT	671
+gene_03      TACTTGGGAGGCTG-----AGGTGG---GAGGATCACTTGATC-CGGGGGGCGGAGGCTG	655
+gene_05      TACTTAGGAGGCTA-----AGGCGA---GAGAATTACTTAAGCCCAGGAGTTTGAGGCTT	620
+gene_06      -----------------------GA---TCCATCTTCAGCTTCCCAAAGTGGTGGGATTA	736
+gene_08      ATCC--------TG-GCATGGAAGGTCTGTGCCTC----CATTCT----------TGTTG	615
+gene_04      --CC--------TGTTTTAGAACAGTCTGCACAAC----ATAATTGT-----AGGG----	658
+gene_07      -----------------AATGAACGTCAGCTCCCC----TTTCCCAA-----AGGGGTTG	708
+gene_02      ATCAATG--GGCTCTGAAATGTCCCTCT-----------------GT-----AGATTCTG	600
+gene_09      -------------------ATTCAGTCT-----------------TT-----AGATTT--	585
+                                                                         
+
+gene_01      C-----------AGGCGTGAGCCA--CCGCATCAGG--------------C-----CTTA	581
+gene_10      C----------AAGCAGCTCTCCA--CCCCGCTTCCTCCCTCCCCTCCTGCTGGATCTCT	719
+gene_03      CAGTGAG---CTGTGATCACACCA--CTGCACTTCAGCTGTGGGT----GACAAAGCAAG	706
+gene_05      CAGTGAG---CTATGATCGTGCCA--CCGCACTCCAGCGCAGGCAACAGGGTGAGGCTCA	675
+gene_06      C-----------AGGTGTGAGCCA--CCGCGCCTAG------CCACCCTGGCTGGTCTTG	777
+gene_08      CTTT--GGTGTAGGAAATGC-------TGATTTTG-----TTGCTTCTCTATGGGGCAAA	661
+gene_04      CAAG--G----TGGGAATT-ATGAGTCTTAAACAA------GTCTTGTAGGTGGGGATAA	705
+gene_07      CTCT--G---TTGGGAAGGCACCCGTTTGATACAG-----TAGCATAGAGATGGGTTTT-	757
+gene_02      CAAAAAG----AGTGTTTCCAACCTGTTGAATCAAAACAGTTTTAACTTTGT--GAGAT-	653
+gene_09      CATATGGTTGTTATGTTTTAATCTGGAAGG---AGTACAGAAATAAGTCAGAAGAAATT-	641
+             *           .                                            :  
+
+gene_01      ----AACATTTTAAAA--TGTAAACCTTTT---------------GAAGAATTC----AC	616
+gene_10      ----TTCTTAC-------CTTGGTTCTTGTCCCGTTCCCTCAGTAAAAGAGCGCTCCTTC	768
+gene_03      ----ATCCTATCTCAAAAAAAAGTA--------------------TATATA-TTTCCCA-	740
+gene_05      ----AACAAAACTCAAAACAAAAAACTTGTT--------------CTTATATGTTCCCTC	717
+gene_06      ----AA-----CTCCTGGCT--------------------------TCAAGTGATCCT--	800
+gene_08      --------TA--------------------------------------------------	663
+gene_04      CATGTGTATTA------AAATAAC------------------------------------	723
+gene_07      ----AGAATCA------AAATATC------------------------------------	771
+gene_02      --GAAGCCACAC--ATCACAAAGC--------------------------ATTTTCACCC	683
+gene_09      --TGAGACTGTC--TACTCATGGCC------------CC-------TAATGGTAACTCAC	678
+                                                                         
+
+gene_01      CTAACAGCAGATGGCTG--------GCTGGCTGGCTGCATTAAAAC--------------	654
+gene_10      CAATCTGCCTCATTCTC-----------------------ATTCACTTGG----------	795
+gene_03      ---TAAGCATTATCCTG--------GAT--------GTATTTTCATATCGACGTTGTATT	781
+gene_05      CAAAGAGAATGGATAGA--------GATGGGA--ATGATTTTTAACTTGGAGTGTGTTTT	767
+gene_06      ------------------------------------------------------------	800
+gene_08      --------------ATAATAAACGCCTTGAGT--------------------TATTCTCA	689
+gene_04      --------------C-----AAAACCATTGGC--------------------TCTGCTTT	744
+gene_07      --------------AGAATTCAAGCCTTGCTC--------------------TCTGCTTA	797
+gene_02      AT---AGCTTGTTTCTAATTTTTACCATGGGTTATTGGTTTTTCACTAAATGC---CTCA	737
+gene_09      AT---GGAAGGATTGTT--TTGAATCATGA--AAAGGGAATTTCT--TGGTGTCGGCTTA	729
+                                                                         
+
+gene_01      -AGTAAGCACTTGAGGGTGAGGAAAAGGGGGTACTTTGT--------GCTCCCTTGTGGC	705
+gene_10      ----------------GAAT-----C----------------------------------	800
+gene_03      TT----GTTCTTGAG----------TGTAGATG---------------------------	800
+gene_05      TTATATTTCCCTGAAGGAAA-----TGTTGGTGCTGTA----------------------	800
+gene_06      ------------------------------------------------------------	800
+gene_08      TA---TTCTCTTTGA-AAAATGCCAAA----------------------ATTTAAC---A	720
+gene_04      TC---TGC------A-GATAAGCCTCACA-CAGCTA--TGATTCACAGCACTGAAC---G	788
+gene_07      CT---A------------------------------------------------------	800
+gene_02      AT---GGACTAGGAA-TAATTGCCTTGCA-GATTGT-----------ACAACCA------	775
+gene_09      TA---ATACAAAGTT-CTGAAGTCAATCA-GAACTCAAAAAAACAAAGCATTCATT---G	781
+                                                                         
+
+gene_01      CAAGTGACCCTAGCTTCCTGCTGCTCAGCTAGGCTGCTTGTCTTTTTTTTTTTTTTTTTT	765
+gene_10      ------------------------------------------------------------	800
+gene_03      ------------------------------------------------------------	800
+gene_05      ------------------------------------------------------------	800
+gene_06      ------------------------------------------------------------	800
+gene_08      --TCTGTCATTTTCTTCCTGAAAT--AGAAGGAATGTTTCCCTAGAGT--------TAAA	768
+gene_04      --GCTGCATCTTTC----------------------------------------------	800
+gene_07      ------------------------------------------------------------	800
+gene_02      ----AGGAGTTTCCAACCTGCAGA--AGCAA-----------------------------	800
+gene_09      AATGAGGTGCTTC--TCCTTT---------------------------------------	800
+                                                                         
+
+gene_01      TTTTCTTTT----TTTGCC-ACAGGACTTGCTCTTAATTT	800
+gene_10      ----------------------------------------	800
+gene_03      ----------------------------------------	800
+gene_05      ----------------------------------------	800
+gene_06      ----------------------------------------	800
+gene_08      AAACCTGTAGGAGATCACCTAGTGGTTGGGCT--------	800
+gene_04      ----------------------------------------	800
+gene_07      ----------------------------------------	800
+gene_02      ----------------------------------------	800
+gene_09      ----------------------------------------	800
+                                                     
