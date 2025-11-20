@@ -1,0 +1,11 @@
+Sequence_ID,KMeans_Cluster,DBSCAN_Cluster
+gene_01,2,0
+gene_02,1,-1
+gene_03,2,-1
+gene_04,1,-1
+gene_05,2,0
+gene_06,0,0
+gene_07,0,-1
+gene_08,2,0
+gene_09,1,-1
+gene_10,0,0

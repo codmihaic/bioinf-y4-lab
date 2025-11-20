@@ -1,0 +1,69 @@
+Task01:
+Am inclus în arhivă fișierul assign_seq.fasta, folosit în laboratorul 04 și arborele filogenetic salva ca tree_codmihaic.nwk, alături de poza tree_codmihaic.nwk.
+
+Task02:
+Am aplicat o variantă modificată a `ex01_clustering.py`, numită  `clustering.py` pentru a city din fișierul assign_seq.fasta și a produce toate cele 3 clusterizări, Hierarchical, K-means si DBSCAN.
+
+Task03:
+
+1. Rezumatul datelor și al metodelor
+Am analizat 10 secvențe genetice din fișierul assign_seq.fasta.
+Pentru fiecare secvență am extras următoarele caracteristici numerice:
+- Lungime
+- GC-content
+- Frecvențe: A, C, G, T
+
+Acestea au fost standardizate și folosite la trei metode de clustering:
+- Hierarchical clustering (average linkage)
+- K-means (K = 3)
+- DBSCAN (eps = 1.5, min_samples = 3)
+Ulterior, am comparat grupările obținute cu arborele filogenetic construit separat (neighbor-joining, tree_codmihaic.nwk).
+
+2. Rezultatele clustering-ului
+2.1 Hierarchical clustering (dendrogram):
+  Dendrograma separă cele 10 gene în 3 grupuri principale:
+  - Clust. H1: gene_02, gene_04, gene_09
+  - Clust. H2: gene_03, gene_08, gene_01, gene_05
+  - Clust. H3: gene_07, gene_06, gene_10
+  Structura este relativ echilibrată, iar distanțele sugerează două nuclee principale (H1 și H2), urmate de un cluster compact format din gene_06, gene_07, gene_10.
+
+2.2 K-means (vizualizare PCA):
+  K-means (K=3) a produs trei clustere coerente:
+  - Cluster 0: gene_01, gene_06, gene_10
+  - Cluster 1: gene_02, gene_04, gene_09
+  - Cluster 2: gene_03, gene_05, gene_07, gene_08
+  Grupul (gene_02, gene_04, gene_09) este identic cu clusterul H1 din hierarchical – deci consistent între metode.
+
+2.3 DBSCAN:
+  DBSCAN a identificat două grupe dense și mai multe puncte „noise” (−1):
+  - Cluster 0: gene_01, gene_03, gene_05, gene_07, gene_08
+  - Noise (−1): gene_02, gene_04, gene_06, gene_09, gene_10
+  DBSCAN este mai strict și separă genele rare/izolate ca noise. Genele cu distribuții neobișnuite ale bazelor sau lungimi diferite au fost marcate ca outliers.
+
+3. Compararea clustering-ului cu arborele filogenetic:
+Arborele NJ (tree_codmihaic.png) grupează genele astfel:
+- Ramura A: gene_08 + gene_01
+- Ramura B: gene_02 + gene_09 + gene_04
+- Ramura C: gene_03
+- Ramura D: gene_07 + gene_06
+- Ramura E: gene_10 + gene_05 (ramuri apropiate, dar separate)
+
+Comparând cu clustering-ul, avem două categorii:
+a. Coincidențe între clustering și filogenie
+- Clusterul gene_02–gene_04–gene_09 apare identic în hierarchical, în K-means și în filogenie (ramura B), aceasta fiind cea mai stabilă relație dintre metode → secvențe foarte apropiate.
+- gene_01 și gene_08 apar împreună în hierarchical clustering (același subcluster) și în filogenie (ramura A)
+- gene_06 și gene_07 sunt apropiate, cu cluster comun în hierarchical și în filogenetic (DBSCAN i-a despărțit fiindcă metoda e sensibilă la densitatea locală)
+
+b. Discrepanțe
+- gene_03 apare singură în filogenie (clada C), dar în clustering hierarchical o pune cu gene_08 și gene_01, iar K-means o pune cu gene_05, gene_07 și gene_08. Această situația apare probabil din cauza unei convergențe funcționale (o similaritate în compoziția bazelor fără rudenie filogenetică directă).
+- gene_10 este apropiată de gene_05 în filogenie, dar DBSCAN o marchează ca noise → secvență prea diferită ca densitate (lungime sau raport GC).
+
+4. Interpretare biologică / funcțională:
+4.1 Suprapuneri semnificative:
+  Clusterul gene_02–gene_04–gene_09 confirmat de toate metodele sugerează origine filogenetică comună și funcție apropiată, sau evoluție recentă fără divergență majoră.
+
+4.2 Discrepanțe și explicații posibile:
+  Gena gene_03 diferă filogenetic, dar clustering-ul o alătură altor gene → posibil o evoluție convergentă (adică caracteristici similare apărute independent). Gena gene_10 este izolată la DBSCAN → o secvență cu profil numeric diferit care poate reflecta diversificare funcțională sau schimbări rapide la nivelul bazelor.
+
+4.3 Noise în DBSCAN
+  Genele marcate ca noise (ex. gene_02, gene_04, gene_06, gene_09, gene_10) au fie lungimi foarte diferite, frecvențe neobișnuite A/G/T sau compoziție GC extremă, ceea ce le face izolate în spațiul numeric (nu neapărat în cel evolutiv).
