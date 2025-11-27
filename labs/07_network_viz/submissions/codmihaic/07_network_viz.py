@@ -32,15 +32,13 @@ import matplotlib.pyplot as plt
 # --------------------------
 # Config — completați după nevoie
 # --------------------------
-# username GitHub (hardcodat pentru laboratorul tău)
+# username GitHub
 HANDLE = "codmihaic"
 
 # Fișiere de intrare
-# Matricea de expresie folosită în Lab 6
 EXPR_CSV = Path(f"data/work/{HANDLE}/lab06/expression_matrix.csv")
 
 # Mapping gene -> modul (produs în Lab 6 sau în exercițiul anterior din Lab 7)
-# Ai deja fișierul modules_codmihaic.csv, deci numele se potrivește cu modules_{HANDLE}.csv
 MODULES_CSV = Path(f"labs/07_network_viz/submissions/{HANDLE}/modules_{HANDLE}.csv")
 
 # (Opțional) încărcați o adiacență pregătită; altfel, reconstruiți din corelații
@@ -48,17 +46,17 @@ MODULES_CSV = Path(f"labs/07_network_viz/submissions/{HANDLE}/modules_{HANDLE}.c
 # PRECOMPUTED_ADJ_CSV: Optional[Path] = Path(f"labs/06_networks/submissions/{HANDLE}/adj_{HANDLE}.csv")
 PRECOMPUTED_ADJ_CSV: Optional[Path] = None
 
-# Parametri pentru reconstrucția adiacenței (dacă nu aveți CSV)
+# Parametri pentru reconstructia adiacenței (fara CSV)
 CORR_METHOD = "spearman"   # "pearson" sau "spearman"
 USE_ABS_CORR = True        # True => folosiți |cor|
 ADJ_THRESHOLD = 0.6        # prag pentru |cor| (ex: 0.6)
-WEIGHTED = False           # False => 0/1; True => păstrează valorile corr peste prag
+WEIGHTED = False           # False => 0/1; True => pastreaza valorile corr peste prag
 
 # Parametri de vizualizare
 SEED = 42                  # pentru layout determinist
-TOPK_HUBS = 10             # câte gene hub etichetăm (după grad)
-NODE_BASE_SIZE = 60        # mărimea de bază a nodurilor
-EDGE_ALPHA = 0.15          # transparența muchiilor
+TOPK_HUBS = 10             # cate gene hub etichetam (dupa grad)
+NODE_BASE_SIZE = 60        # mărimea de baza a nodurilor
+EDGE_ALPHA = 0.15          # transparenta muchiilor
 
 # Ieșiri
 OUT_DIR = Path(f"labs/07_network_viz/submissions/{HANDLE}")
@@ -71,13 +69,13 @@ OUT_HUBS = OUT_DIR / f"hubs_{HANDLE}.csv"
 # --------------------------
 def ensure_exists(path: Path) -> None:
     if not path.exists():
-        raise FileNotFoundError(f"Nu am găsit: {path}")
+        raise FileNotFoundError(f"Nu am gasit: {path}")
 
 
 def read_expression_matrix(path: Path) -> pd.DataFrame:
     df = pd.read_csv(path, index_col=0)
     if df.empty:
-        raise ValueError("Matricea de expresie este goală.")
+        raise ValueError("Matricea de expresie este goala.")
     return df
 
 
@@ -87,7 +85,7 @@ def read_modules_csv(path: Path) -> Dict[str, int]:
     """
     df = pd.read_csv(path)
     if not {"Gene", "Module"}.issubset(df.columns):
-        raise ValueError("modules.csv trebuie să conțină coloanele: Gene, Module")
+        raise ValueError("modules.csv trebuie sa contina coloanele: Gene, Module")
     return dict(zip(df["Gene"].astype(str), df["Module"].astype(int)))
 
 
@@ -211,8 +209,8 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.savefig(OUT_PNG, dpi=300)
     plt.close()
-    print(f"Am salvat figura în: {OUT_PNG}")
+    print(f"Am salvat figura in: {OUT_PNG}")
 
     # 7) Export hub-uri
     hubs_df.to_csv(OUT_HUBS, index=False)
-    print(f"Am salvat hub genes în: {OUT_HUBS}")
+    print(f"Am salvat hub genes in: {OUT_HUBS}")
