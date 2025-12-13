@@ -53,3 +53,4 @@ build/
 !data/sample/
 !data/sample/**
 data/sample/data_generation_notes.md
+labs/03_formats&NGS/submissions/codmihaic/fasta_codmihaic.fasta
