@@ -12,6 +12,7 @@ from sklearn.cluster import KMeans
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score
+from sklearn.feature_selection import VarianceThreshold
 
 
 # =========================
@@ -219,6 +220,40 @@ def main():
     print("-", os.path.basename(fi_path))
     print("-", os.path.basename(crosstab_path))
     print("-", os.path.basename(scatter_path))
+
+    # =========================
+    # BONUS (+1p) — PCA before vs after low-variance gene removal
+    # =========================
+    scaler_bonus = StandardScaler()
+    X_scaled = scaler_bonus.fit_transform(X_train)
+    pca_before = PCA(n_components=2, random_state=RANDOM_STATE)
+    X_pca_before = pca_before.fit_transform(X_scaled)
+
+    variances = X_train.var(axis=0)
+    low_var_genes = variances.sort_values().head(10).index.tolist()
+    X_filtered = X_train.drop(columns=low_var_genes)
+    X_filt_scaled = scaler_bonus.fit_transform(X_filtered)
+    pca_after = PCA(n_components=2, random_state=RANDOM_STATE)
+    X_pca_after = pca_after.fit_transform(X_filt_scaled)
+
+    # --- Plot comparison
+    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+    axes[0].scatter(X_pca_before[:, 0], X_pca_before[:, 1], c=clusters)
+    axes[0].set_title("PCA before low-variance filtering")
+    axes[0].set_xlabel("PC1")
+    axes[0].set_ylabel("PC2")
+
+    axes[1].scatter(X_pca_after[:, 0], X_pca_after[:, 1], c=clusters)
+    axes[1].set_title("PCA after removing 10 low-variance genes")
+    axes[1].set_xlabel("PC1")
+    axes[1].set_ylabel("PC2")
+
+    plt.tight_layout()
+    bonus_path = os.path.join(OUT_DIR, f"bonus_pca_comparison_{HANDLE}.png")
+    plt.savefig(bonus_path, dpi=200)
+    plt.close()
+
+    print("🎁 Bonus PCA comparison saved to:", bonus_path)
 
 
 if __name__ == "__main__":
