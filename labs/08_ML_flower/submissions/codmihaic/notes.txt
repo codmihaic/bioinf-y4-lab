@@ -1,0 +1,8 @@
+=== Task 3: Logistic Regression vs Random Forest ===
+RF  - accuracy: 0.8154, macro-F1: 0.7219
+LR  - accuracy: 0.8154, macro-F1: 0.7090
+
+=== Task 5: Semi-supervised (Pseudo-labeling) ===
+Unknown ratio: 40% (train labels hidden)
+RF trained only on labeled   -> acc: 0.7692, macro-F1: 0.5853
+RF retrained w/ pseudo-label -> acc: 0.7538, macro-F1: 0.5573
