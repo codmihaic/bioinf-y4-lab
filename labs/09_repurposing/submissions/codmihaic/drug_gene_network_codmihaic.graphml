@@ -1,0 +1,1450 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="bipartite" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="Amoxicillin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Apixaban">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Aspirin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Aspirin_lowdose">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Atorvastatin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Azithromycin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Biotin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Captopril">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Ceftriaxone">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Celecoxib">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Ciprofloxacin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Clopidogrel">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Dabigatran">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Diclofenac">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Doxycycline">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Empagliflozin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Enalapril">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Enoxaparin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Erlotinib">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Fluvastatin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Gefitinib">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Glibenclamide">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Heparin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Ibuprofen">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Imatinib">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Indomethacin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Ketorolac">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Liraglutide">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Lisinopril">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Losartan">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Lovastatin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Melatonin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Meloxicam">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Metformin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Naproxen">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Pioglitazone">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Prasugrel">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Pravastatin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="ProbioticMix">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Ramipril">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Rivaroxaban">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Rosuvastatin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Simvastatin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Sitagliptin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Sorafenib">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Sunitinib">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Ticagrelor">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Trastuzumab">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Valsartan">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Vancomycin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="VitaminC">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="Warfarin">
+      <data key="d0">0</data>
+      <data key="d1">drug</data>
+    </node>
+    <node id="ABCB1">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="ACE">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="AGTR1">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="AKT1">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="AMPK">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="APOB">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="CRP">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="CXCL8">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="CYP2C19">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="CYP3A4">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="EGFR">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="F2">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="F5">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="FOS">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G001">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G002">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G003">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G004">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G007">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G008">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G009">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G011">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G012">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G013">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G014">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G015">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G016">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G017">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G018">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G019">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G020">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G021">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G022">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G024">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G026">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G027">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G028">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G029">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G030">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G031">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G033">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G034">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G035">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G036">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G037">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G039">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G040">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G041">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G042">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G043">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G046">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G049">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G050">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G051">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G052">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G053">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G054">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G055">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G056">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G057">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G058">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G059">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G060">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G061">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G062">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G063">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G064">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G065">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G067">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G068">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G069">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G070">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G071">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G072">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G073">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G074">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G076">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G077">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G078">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G079">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G080">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G081">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G085">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G086">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G087">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G088">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G090">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G091">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G092">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G093">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G094">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G095">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G098">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G103">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G104">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G105">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G106">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G108">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G109">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G110">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G111">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G112">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G113">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G115">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G116">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G117">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G118">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G119">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G120">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G122">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G124">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G125">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G126">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G130">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G131">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G134">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G136">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G138">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G139">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G140">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G141">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G142">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G143">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G144">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G145">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G146">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G148">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G149">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G150">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G151">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G153">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G155">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G156">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G159">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="G160">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="HMGCR">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="IL6">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="JUN">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="LDLR">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="MAPK1">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="MAPK3">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="MTOR">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="NFKB1">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="NOS3">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="P2RY12">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="PCSK9">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="PIK3CA">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="PTGS1">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="PTGS2">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="REN">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="SERPINC1">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="SLC22A1">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="SLC47A1">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="SREBF2">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="STAT3">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="TNF">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <node id="VKORC1">
+      <data key="d0">1</data>
+      <data key="d1">gene</data>
+    </node>
+    <edge source="Amoxicillin" target="AMPK" />
+    <edge source="Amoxicillin" target="G021" />
+    <edge source="Amoxicillin" target="MTOR" />
+    <edge source="Amoxicillin" target="G015" />
+    <edge source="Amoxicillin" target="TNF" />
+    <edge source="Amoxicillin" target="ABCB1" />
+    <edge source="Amoxicillin" target="IL6" />
+    <edge source="Amoxicillin" target="CRP" />
+    <edge source="Amoxicillin" target="NFKB1" />
+    <edge source="Amoxicillin" target="G131" />
+    <edge source="Apixaban" target="G156" />
+    <edge source="Apixaban" target="G051" />
+    <edge source="Apixaban" target="G028" />
+    <edge source="Apixaban" target="G077" />
+    <edge source="Apixaban" target="CYP3A4" />
+    <edge source="Apixaban" target="PTGS1" />
+    <edge source="Apixaban" target="ABCB1" />
+    <edge source="Apixaban" target="SREBF2" />
+    <edge source="Apixaban" target="F2" />
+    <edge source="Apixaban" target="F5" />
+    <edge source="Apixaban" target="VKORC1" />
+    <edge source="Apixaban" target="G046" />
+    <edge source="Apixaban" target="SERPINC1" />
+    <edge source="Apixaban" target="G130" />
+    <edge source="Aspirin" target="PTGS2" />
+    <edge source="Aspirin" target="CXCL8" />
+    <edge source="Aspirin" target="MAPK1" />
+    <edge source="Aspirin" target="PTGS1" />
+    <edge source="Aspirin" target="TNF" />
+    <edge source="Aspirin" target="G027" />
+    <edge source="Aspirin" target="G058" />
+    <edge source="Aspirin" target="IL6" />
+    <edge source="Aspirin" target="VKORC1" />
+    <edge source="Aspirin" target="NFKB1" />
+    <edge source="Aspirin" target="G036" />
+    <edge source="Aspirin" target="MAPK3" />
+    <edge source="Aspirin_lowdose" target="REN" />
+    <edge source="Aspirin_lowdose" target="G087" />
+    <edge source="Aspirin_lowdose" target="ABCB1" />
+    <edge source="Aspirin_lowdose" target="F2" />
+    <edge source="Aspirin_lowdose" target="CYP2C19" />
+    <edge source="Aspirin_lowdose" target="G064" />
+    <edge source="Aspirin_lowdose" target="P2RY12" />
+    <edge source="Aspirin_lowdose" target="G017" />
+    <edge source="Aspirin_lowdose" target="G058" />
+    <edge source="Aspirin_lowdose" target="IL6" />
+    <edge source="Aspirin_lowdose" target="G031" />
+    <edge source="Aspirin_lowdose" target="G116" />
+    <edge source="Aspirin_lowdose" target="NFKB1" />
+    <edge source="Atorvastatin" target="HMGCR" />
+    <edge source="Atorvastatin" target="LDLR" />
+    <edge source="Atorvastatin" target="G054" />
+    <edge source="Atorvastatin" target="APOB" />
+    <edge source="Atorvastatin" target="SREBF2" />
+    <edge source="Atorvastatin" target="F2" />
+    <edge source="Atorvastatin" target="G091" />
+    <edge source="Atorvastatin" target="CRP" />
+    <edge source="Atorvastatin" target="G095" />
+    <edge source="Atorvastatin" target="NFKB1" />
+    <edge source="Atorvastatin" target="NOS3" />
+    <edge source="Atorvastatin" target="PCSK9" />
+    <edge source="Azithromycin" target="TNF" />
+    <edge source="Azithromycin" target="ABCB1" />
+    <edge source="Azithromycin" target="G064" />
+    <edge source="Azithromycin" target="G104" />
+    <edge source="Azithromycin" target="G061" />
+    <edge source="Azithromycin" target="IL6" />
+    <edge source="Azithromycin" target="CRP" />
+    <edge source="Azithromycin" target="G146" />
+    <edge source="Azithromycin" target="G031" />
+    <edge source="Azithromycin" target="NFKB1" />
+    <edge source="Azithromycin" target="G018" />
+    <edge source="Biotin" target="G106" />
+    <edge source="Biotin" target="G061" />
+    <edge source="Biotin" target="G046" />
+    <edge source="Biotin" target="G042" />
+    <edge source="Captopril" target="G028" />
+    <edge source="Captopril" target="G138" />
+    <edge source="Captopril" target="REN" />
+    <edge source="Captopril" target="G115" />
+    <edge source="Captopril" target="G087" />
+    <edge source="Captopril" target="STAT3" />
+    <edge source="Captopril" target="G064" />
+    <edge source="Captopril" target="G049" />
+    <edge source="Captopril" target="AGTR1" />
+    <edge source="Captopril" target="CRP" />
+    <edge source="Captopril" target="G050" />
+    <edge source="Captopril" target="SERPINC1" />
+    <edge source="Captopril" target="NOS3" />
+    <edge source="Captopril" target="ACE" />
+    <edge source="Ceftriaxone" target="G090" />
+    <edge source="Ceftriaxone" target="TNF" />
+    <edge source="Ceftriaxone" target="ABCB1" />
+    <edge source="Ceftriaxone" target="IL6" />
+    <edge source="Ceftriaxone" target="CRP" />
+    <edge source="Ceftriaxone" target="G055" />
+    <edge source="Ceftriaxone" target="NFKB1" />
+    <edge source="Ceftriaxone" target="G034" />
+    <edge source="Ceftriaxone" target="G130" />
+    <edge source="Ceftriaxone" target="G068" />
+    <edge source="Ceftriaxone" target="G018" />
+    <edge source="Celecoxib" target="PTGS2" />
+    <edge source="Celecoxib" target="CXCL8" />
+    <edge source="Celecoxib" target="G021" />
+    <edge source="Celecoxib" target="G098" />
+    <edge source="Celecoxib" target="G060" />
+    <edge source="Celecoxib" target="MAPK1" />
+    <edge source="Celecoxib" target="PTGS1" />
+    <edge source="Celecoxib" target="TNF" />
+    <edge source="Celecoxib" target="G026" />
+    <edge source="Celecoxib" target="IL6" />
+    <edge source="Celecoxib" target="NFKB1" />
+    <edge source="Celecoxib" target="MAPK3" />
+    <edge source="Celecoxib" target="PCSK9" />
+    <edge source="Ciprofloxacin" target="G150" />
+    <edge source="Ciprofloxacin" target="G134" />
+    <edge source="Ciprofloxacin" target="JUN" />
+    <edge source="Ciprofloxacin" target="G145" />
+    <edge source="Ciprofloxacin" target="TNF" />
+    <edge source="Ciprofloxacin" target="ABCB1" />
+    <edge source="Ciprofloxacin" target="G081" />
+    <edge source="Ciprofloxacin" target="IL6" />
+    <edge source="Ciprofloxacin" target="CRP" />
+    <edge source="Ciprofloxacin" target="G067" />
+    <edge source="Ciprofloxacin" target="NFKB1" />
+    <edge source="Ciprofloxacin" target="G053" />
+    <edge source="Ciprofloxacin" target="ACE" />
+    <edge source="Ciprofloxacin" target="G062" />
+    <edge source="Clopidogrel" target="G021" />
+    <edge source="Clopidogrel" target="G022" />
+    <edge source="Clopidogrel" target="ABCB1" />
+    <edge source="Clopidogrel" target="TNF" />
+    <edge source="Clopidogrel" target="CYP2C19" />
+    <edge source="Clopidogrel" target="P2RY12" />
+    <edge source="Clopidogrel" target="IL6" />
+    <edge source="Clopidogrel" target="G146" />
+    <edge source="Clopidogrel" target="NFKB1" />
+    <edge source="Dabigatran" target="PTGS2" />
+    <edge source="Dabigatran" target="CYP3A4" />
+    <edge source="Dabigatran" target="ABCB1" />
+    <edge source="Dabigatran" target="F2" />
+    <edge source="Dabigatran" target="G079" />
+    <edge source="Dabigatran" target="G093" />
+    <edge source="Dabigatran" target="F5" />
+    <edge source="Dabigatran" target="VKORC1" />
+    <edge source="Dabigatran" target="SERPINC1" />
+    <edge source="Dabigatran" target="PIK3CA" />
+    <edge source="Diclofenac" target="PTGS2" />
+    <edge source="Diclofenac" target="CXCL8" />
+    <edge source="Diclofenac" target="G051" />
+    <edge source="Diclofenac" target="G108" />
+    <edge source="Diclofenac" target="MAPK1" />
+    <edge source="Diclofenac" target="PTGS1" />
+    <edge source="Diclofenac" target="TNF" />
+    <edge source="Diclofenac" target="G144" />
+    <edge source="Diclofenac" target="G140" />
+    <edge source="Diclofenac" target="G155" />
+    <edge source="Diclofenac" target="IL6" />
+    <edge source="Diclofenac" target="G007" />
+    <edge source="Diclofenac" target="NFKB1" />
+    <edge source="Diclofenac" target="MAPK3" />
+    <edge source="Diclofenac" target="PCSK9" />
+    <edge source="Doxycycline" target="G145" />
+    <edge source="Doxycycline" target="G077" />
+    <edge source="Doxycycline" target="G003" />
+    <edge source="Doxycycline" target="TNF" />
+    <edge source="Doxycycline" target="ABCB1" />
+    <edge source="Doxycycline" target="G019" />
+    <edge source="Doxycycline" target="G081" />
+    <edge source="Doxycycline" target="G118" />
+    <edge source="Doxycycline" target="IL6" />
+    <edge source="Doxycycline" target="CRP" />
+    <edge source="Doxycycline" target="NFKB1" />
+    <edge source="Doxycycline" target="SERPINC1" />
+    <edge source="Doxycycline" target="MAPK3" />
+    <edge source="Doxycycline" target="G160" />
+    <edge source="Empagliflozin" target="AMPK" />
+    <edge source="Empagliflozin" target="MTOR" />
+    <edge source="Empagliflozin" target="G143" />
+    <edge source="Empagliflozin" target="AKT1" />
+    <edge source="Empagliflozin" target="G109" />
+    <edge source="Empagliflozin" target="PTGS1" />
+    <edge source="Empagliflozin" target="STAT3" />
+    <edge source="Empagliflozin" target="SLC22A1" />
+    <edge source="Empagliflozin" target="SLC47A1" />
+    <edge source="Empagliflozin" target="IL6" />
+    <edge source="Empagliflozin" target="F5" />
+    <edge source="Empagliflozin" target="G074" />
+    <edge source="Empagliflozin" target="G117" />
+    <edge source="Enalapril" target="REN" />
+    <edge source="Enalapril" target="STAT3" />
+    <edge source="Enalapril" target="TNF" />
+    <edge source="Enalapril" target="G085" />
+    <edge source="Enalapril" target="AGTR1" />
+    <edge source="Enalapril" target="CRP" />
+    <edge source="Enalapril" target="G009" />
+    <edge source="Enalapril" target="NOS3" />
+    <edge source="Enalapril" target="ACE" />
+    <edge source="Enalapril" target="G018" />
+    <edge source="Enoxaparin" target="G138" />
+    <edge source="Enoxaparin" target="MAPK1" />
+    <edge source="Enoxaparin" target="CYP3A4" />
+    <edge source="Enoxaparin" target="ABCB1" />
+    <edge source="Enoxaparin" target="G069" />
+    <edge source="Enoxaparin" target="F2" />
+    <edge source="Enoxaparin" target="G076" />
+    <edge source="Enoxaparin" target="F5" />
+    <edge source="Enoxaparin" target="G029" />
+    <edge source="Enoxaparin" target="VKORC1" />
+    <edge source="Enoxaparin" target="SERPINC1" />
+    <edge source="Enoxaparin" target="G041" />
+    <edge source="Enoxaparin" target="G088" />
+    <edge source="Enoxaparin" target="G112" />
+    <edge source="Erlotinib" target="AMPK" />
+    <edge source="Erlotinib" target="MTOR" />
+    <edge source="Erlotinib" target="AKT1" />
+    <edge source="Erlotinib" target="JUN" />
+    <edge source="Erlotinib" target="PTGS1" />
+    <edge source="Erlotinib" target="STAT3" />
+    <edge source="Erlotinib" target="G027" />
+    <edge source="Erlotinib" target="SLC22A1" />
+    <edge source="Erlotinib" target="G030" />
+    <edge source="Erlotinib" target="G035" />
+    <edge source="Erlotinib" target="PIK3CA" />
+    <edge source="Erlotinib" target="EGFR" />
+    <edge source="Erlotinib" target="G068" />
+    <edge source="Erlotinib" target="FOS" />
+    <edge source="Fluvastatin" target="G110" />
+    <edge source="Fluvastatin" target="HMGCR" />
+    <edge source="Fluvastatin" target="LDLR" />
+    <edge source="Fluvastatin" target="G150" />
+    <edge source="Fluvastatin" target="AKT1" />
+    <edge source="Fluvastatin" target="APOB" />
+    <edge source="Fluvastatin" target="SREBF2" />
+    <edge source="Fluvastatin" target="G057" />
+    <edge source="Fluvastatin" target="G103" />
+    <edge source="Fluvastatin" target="G093" />
+    <edge source="Fluvastatin" target="SLC22A1" />
+    <edge source="Fluvastatin" target="CRP" />
+    <edge source="Fluvastatin" target="NFKB1" />
+    <edge source="Fluvastatin" target="G036" />
+    <edge source="Fluvastatin" target="G131" />
+    <edge source="Fluvastatin" target="PCSK9" />
+    <edge source="Gefitinib" target="MTOR" />
+    <edge source="Gefitinib" target="AKT1" />
+    <edge source="Gefitinib" target="JUN" />
+    <edge source="Gefitinib" target="STAT3" />
+    <edge source="Gefitinib" target="G070" />
+    <edge source="Gefitinib" target="SLC22A1" />
+    <edge source="Gefitinib" target="G155" />
+    <edge source="Gefitinib" target="PIK3CA" />
+    <edge source="Gefitinib" target="EGFR" />
+    <edge source="Gefitinib" target="FOS" />
+    <edge source="Gefitinib" target="G073" />
+    <edge source="Glibenclamide" target="AMPK" />
+    <edge source="Glibenclamide" target="G149" />
+    <edge source="Glibenclamide" target="HMGCR" />
+    <edge source="Glibenclamide" target="MTOR" />
+    <edge source="Glibenclamide" target="AKT1" />
+    <edge source="Glibenclamide" target="STAT3" />
+    <edge source="Glibenclamide" target="SLC22A1" />
+    <edge source="Glibenclamide" target="SLC47A1" />
+    <edge source="Glibenclamide" target="IL6" />
+    <edge source="Glibenclamide" target="G056" />
+    <edge source="Glibenclamide" target="PIK3CA" />
+    <edge source="Glibenclamide" target="G015" />
+    <edge source="Glibenclamide" target="G139" />
+    <edge source="Heparin" target="G120" />
+    <edge source="Heparin" target="G136" />
+    <edge source="Heparin" target="G142" />
+    <edge source="Heparin" target="CYP3A4" />
+    <edge source="Heparin" target="ABCB1" />
+    <edge source="Heparin" target="G153" />
+    <edge source="Heparin" target="F2" />
+    <edge source="Heparin" target="AGTR1" />
+    <edge source="Heparin" target="F5" />
+    <edge source="Heparin" target="VKORC1" />
+    <edge source="Heparin" target="NFKB1" />
+    <edge source="Heparin" target="SERPINC1" />
+    <edge source="Heparin" target="G065" />
+    <edge source="Ibuprofen" target="PTGS2" />
+    <edge source="Ibuprofen" target="CXCL8" />
+    <edge source="Ibuprofen" target="G024" />
+    <edge source="Ibuprofen" target="AKT1" />
+    <edge source="Ibuprofen" target="MAPK1" />
+    <edge source="Ibuprofen" target="JUN" />
+    <edge source="Ibuprofen" target="PTGS1" />
+    <edge source="Ibuprofen" target="TNF" />
+    <edge source="Ibuprofen" target="G008" />
+    <edge source="Ibuprofen" target="AGTR1" />
+    <edge source="Ibuprofen" target="IL6" />
+    <edge source="Ibuprofen" target="NFKB1" />
+    <edge source="Ibuprofen" target="MAPK3" />
+    <edge source="Imatinib" target="MTOR" />
+    <edge source="Imatinib" target="AKT1" />
+    <edge source="Imatinib" target="JUN" />
+    <edge source="Imatinib" target="G126" />
+    <edge source="Imatinib" target="STAT3" />
+    <edge source="Imatinib" target="ABCB1" />
+    <edge source="Imatinib" target="PIK3CA" />
+    <edge source="Imatinib" target="G130" />
+    <edge source="Imatinib" target="EGFR" />
+    <edge source="Imatinib" target="G068" />
+    <edge source="Imatinib" target="FOS" />
+    <edge source="Indomethacin" target="PTGS2" />
+    <edge source="Indomethacin" target="CXCL8" />
+    <edge source="Indomethacin" target="G024" />
+    <edge source="Indomethacin" target="G098" />
+    <edge source="Indomethacin" target="MAPK1" />
+    <edge source="Indomethacin" target="PTGS1" />
+    <edge source="Indomethacin" target="TNF" />
+    <edge source="Indomethacin" target="ABCB1" />
+    <edge source="Indomethacin" target="IL6" />
+    <edge source="Indomethacin" target="NFKB1" />
+    <edge source="Indomethacin" target="MAPK3" />
+    <edge source="Ketorolac" target="PTGS2" />
+    <edge source="Ketorolac" target="CXCL8" />
+    <edge source="Ketorolac" target="MAPK1" />
+    <edge source="Ketorolac" target="PTGS1" />
+    <edge source="Ketorolac" target="TNF" />
+    <edge source="Ketorolac" target="P2RY12" />
+    <edge source="Ketorolac" target="G155" />
+    <edge source="Ketorolac" target="G118" />
+    <edge source="Ketorolac" target="IL6" />
+    <edge source="Ketorolac" target="NFKB1" />
+    <edge source="Ketorolac" target="G012" />
+    <edge source="Ketorolac" target="G068" />
+    <edge source="Ketorolac" target="MAPK3" />
+    <edge source="Liraglutide" target="AMPK" />
+    <edge source="Liraglutide" target="MTOR" />
+    <edge source="Liraglutide" target="G150" />
+    <edge source="Liraglutide" target="AKT1" />
+    <edge source="Liraglutide" target="CYP3A4" />
+    <edge source="Liraglutide" target="STAT3" />
+    <edge source="Liraglutide" target="G013" />
+    <edge source="Liraglutide" target="SLC22A1" />
+    <edge source="Liraglutide" target="SLC47A1" />
+    <edge source="Liraglutide" target="IL6" />
+    <edge source="Lisinopril" target="G151" />
+    <edge source="Lisinopril" target="REN" />
+    <edge source="Lisinopril" target="STAT3" />
+    <edge source="Lisinopril" target="G057" />
+    <edge source="Lisinopril" target="AGTR1" />
+    <edge source="Lisinopril" target="SLC22A1" />
+    <edge source="Lisinopril" target="CRP" />
+    <edge source="Lisinopril" target="G002" />
+    <edge source="Lisinopril" target="NOS3" />
+    <edge source="Lisinopril" target="ACE" />
+    <edge source="Losartan" target="MTOR" />
+    <edge source="Losartan" target="REN" />
+    <edge source="Losartan" target="STAT3" />
+    <edge source="Losartan" target="G125" />
+    <edge source="Losartan" target="AGTR1" />
+    <edge source="Losartan" target="CRP" />
+    <edge source="Losartan" target="G072" />
+    <edge source="Losartan" target="G055" />
+    <edge source="Losartan" target="NOS3" />
+    <edge source="Losartan" target="ACE" />
+    <edge source="Lovastatin" target="HMGCR" />
+    <edge source="Lovastatin" target="LDLR" />
+    <edge source="Lovastatin" target="CYP3A4" />
+    <edge source="Lovastatin" target="G037" />
+    <edge source="Lovastatin" target="APOB" />
+    <edge source="Lovastatin" target="SREBF2" />
+    <edge source="Lovastatin" target="G064" />
+    <edge source="Lovastatin" target="G118" />
+    <edge source="Lovastatin" target="CRP" />
+    <edge source="Lovastatin" target="NFKB1" />
+    <edge source="Lovastatin" target="PIK3CA" />
+    <edge source="Lovastatin" target="G068" />
+    <edge source="Lovastatin" target="G036" />
+    <edge source="Lovastatin" target="PCSK9" />
+    <edge source="Melatonin" target="G105" />
+    <edge source="Melatonin" target="G091" />
+    <edge source="Melatonin" target="G144" />
+    <edge source="Meloxicam" target="PTGS2" />
+    <edge source="Meloxicam" target="CXCL8" />
+    <edge source="Meloxicam" target="MAPK1" />
+    <edge source="Meloxicam" target="JUN" />
+    <edge source="Meloxicam" target="PTGS1" />
+    <edge source="Meloxicam" target="TNF" />
+    <edge source="Meloxicam" target="G159" />
+    <edge source="Meloxicam" target="G148" />
+    <edge source="Meloxicam" target="G076" />
+    <edge source="Meloxicam" target="G093" />
+    <edge source="Meloxicam" target="F5" />
+    <edge source="Meloxicam" target="IL6" />
+    <edge source="Meloxicam" target="NFKB1" />
+    <edge source="Meloxicam" target="G050" />
+    <edge source="Meloxicam" target="MAPK3" />
+    <edge source="Meloxicam" target="G018" />
+    <edge source="Metformin" target="AMPK" />
+    <edge source="Metformin" target="MTOR" />
+    <edge source="Metformin" target="G119" />
+    <edge source="Metformin" target="AKT1" />
+    <edge source="Metformin" target="STAT3" />
+    <edge source="Metformin" target="G064" />
+    <edge source="Metformin" target="SLC22A1" />
+    <edge source="Metformin" target="SLC47A1" />
+    <edge source="Metformin" target="IL6" />
+    <edge source="Metformin" target="AGTR1" />
+    <edge source="Metformin" target="G072" />
+    <edge source="Naproxen" target="PTGS2" />
+    <edge source="Naproxen" target="CXCL8" />
+    <edge source="Naproxen" target="MAPK1" />
+    <edge source="Naproxen" target="REN" />
+    <edge source="Naproxen" target="G109" />
+    <edge source="Naproxen" target="PTGS1" />
+    <edge source="Naproxen" target="TNF" />
+    <edge source="Naproxen" target="G040" />
+    <edge source="Naproxen" target="IL6" />
+    <edge source="Naproxen" target="G072" />
+    <edge source="Naproxen" target="G002" />
+    <edge source="Naproxen" target="NFKB1" />
+    <edge source="Naproxen" target="G041" />
+    <edge source="Naproxen" target="G088" />
+    <edge source="Naproxen" target="MAPK3" />
+    <edge source="Pioglitazone" target="AMPK" />
+    <edge source="Pioglitazone" target="MTOR" />
+    <edge source="Pioglitazone" target="G024" />
+    <edge source="Pioglitazone" target="AKT1" />
+    <edge source="Pioglitazone" target="REN" />
+    <edge source="Pioglitazone" target="STAT3" />
+    <edge source="Pioglitazone" target="G013" />
+    <edge source="Pioglitazone" target="G026" />
+    <edge source="Pioglitazone" target="SLC22A1" />
+    <edge source="Pioglitazone" target="SLC47A1" />
+    <edge source="Pioglitazone" target="IL6" />
+    <edge source="Pioglitazone" target="G061" />
+    <edge source="Pioglitazone" target="G004" />
+    <edge source="Pioglitazone" target="G139" />
+    <edge source="Prasugrel" target="G141" />
+    <edge source="Prasugrel" target="AKT1" />
+    <edge source="Prasugrel" target="ABCB1" />
+    <edge source="Prasugrel" target="CYP2C19" />
+    <edge source="Prasugrel" target="P2RY12" />
+    <edge source="Prasugrel" target="IL6" />
+    <edge source="Prasugrel" target="NFKB1" />
+    <edge source="Prasugrel" target="PIK3CA" />
+    <edge source="Prasugrel" target="G033" />
+    <edge source="Prasugrel" target="G122" />
+    <edge source="Pravastatin" target="HMGCR" />
+    <edge source="Pravastatin" target="LDLR" />
+    <edge source="Pravastatin" target="APOB" />
+    <edge source="Pravastatin" target="SREBF2" />
+    <edge source="Pravastatin" target="CRP" />
+    <edge source="Pravastatin" target="VKORC1" />
+    <edge source="Pravastatin" target="G055" />
+    <edge source="Pravastatin" target="G146" />
+    <edge source="Pravastatin" target="NFKB1" />
+    <edge source="Pravastatin" target="SERPINC1" />
+    <edge source="Pravastatin" target="PCSK9" />
+    <edge source="ProbioticMix" target="G106" />
+    <edge source="ProbioticMix" target="G046" />
+    <edge source="ProbioticMix" target="G086" />
+    <edge source="Ramipril" target="REN" />
+    <edge source="Ramipril" target="G109" />
+    <edge source="Ramipril" target="STAT3" />
+    <edge source="Ramipril" target="G111" />
+    <edge source="Ramipril" target="G026" />
+    <edge source="Ramipril" target="G014" />
+    <edge source="Ramipril" target="AGTR1" />
+    <edge source="Ramipril" target="G091" />
+    <edge source="Ramipril" target="CRP" />
+    <edge source="Ramipril" target="G106" />
+    <edge source="Ramipril" target="FOS" />
+    <edge source="Ramipril" target="G120" />
+    <edge source="Ramipril" target="NOS3" />
+    <edge source="Ramipril" target="ACE" />
+    <edge source="Rivaroxaban" target="G136" />
+    <edge source="Rivaroxaban" target="CYP3A4" />
+    <edge source="Rivaroxaban" target="ABCB1" />
+    <edge source="Rivaroxaban" target="F2" />
+    <edge source="Rivaroxaban" target="F5" />
+    <edge source="Rivaroxaban" target="G001" />
+    <edge source="Rivaroxaban" target="VKORC1" />
+    <edge source="Rivaroxaban" target="SERPINC1" />
+    <edge source="Rivaroxaban" target="G139" />
+    <edge source="Rosuvastatin" target="HMGCR" />
+    <edge source="Rosuvastatin" target="LDLR" />
+    <edge source="Rosuvastatin" target="CYP3A4" />
+    <edge source="Rosuvastatin" target="APOB" />
+    <edge source="Rosuvastatin" target="SREBF2" />
+    <edge source="Rosuvastatin" target="CRP" />
+    <edge source="Rosuvastatin" target="NFKB1" />
+    <edge source="Rosuvastatin" target="G009" />
+    <edge source="Rosuvastatin" target="G059" />
+    <edge source="Rosuvastatin" target="PCSK9" />
+    <edge source="Simvastatin" target="HMGCR" />
+    <edge source="Simvastatin" target="LDLR" />
+    <edge source="Simvastatin" target="CXCL8" />
+    <edge source="Simvastatin" target="G098" />
+    <edge source="Simvastatin" target="G119" />
+    <edge source="Simvastatin" target="G143" />
+    <edge source="Simvastatin" target="APOB" />
+    <edge source="Simvastatin" target="SREBF2" />
+    <edge source="Simvastatin" target="G063" />
+    <edge source="Simvastatin" target="G070" />
+    <edge source="Simvastatin" target="CRP" />
+    <edge source="Simvastatin" target="VKORC1" />
+    <edge source="Simvastatin" target="NFKB1" />
+    <edge source="Simvastatin" target="G042" />
+    <edge source="Simvastatin" target="PCSK9" />
+    <edge source="Sitagliptin" target="AMPK" />
+    <edge source="Sitagliptin" target="MTOR" />
+    <edge source="Sitagliptin" target="G043" />
+    <edge source="Sitagliptin" target="AKT1" />
+    <edge source="Sitagliptin" target="G124" />
+    <edge source="Sitagliptin" target="STAT3" />
+    <edge source="Sitagliptin" target="G103" />
+    <edge source="Sitagliptin" target="SLC22A1" />
+    <edge source="Sitagliptin" target="SLC47A1" />
+    <edge source="Sitagliptin" target="IL6" />
+    <edge source="Sitagliptin" target="G055" />
+    <edge source="Sitagliptin" target="G016" />
+    <edge source="Sitagliptin" target="ACE" />
+    <edge source="Sorafenib" target="MTOR" />
+    <edge source="Sorafenib" target="AKT1" />
+    <edge source="Sorafenib" target="JUN" />
+    <edge source="Sorafenib" target="G109" />
+    <edge source="Sorafenib" target="G034" />
+    <edge source="Sorafenib" target="STAT3" />
+    <edge source="Sorafenib" target="TNF" />
+    <edge source="Sorafenib" target="G012" />
+    <edge source="Sorafenib" target="G071" />
+    <edge source="Sorafenib" target="G001" />
+    <edge source="Sorafenib" target="PIK3CA" />
+    <edge source="Sorafenib" target="EGFR" />
+    <edge source="Sorafenib" target="G068" />
+    <edge source="Sorafenib" target="FOS" />
+    <edge source="Sorafenib" target="G086" />
+    <edge source="Sunitinib" target="G110" />
+    <edge source="Sunitinib" target="MTOR" />
+    <edge source="Sunitinib" target="AKT1" />
+    <edge source="Sunitinib" target="JUN" />
+    <edge source="Sunitinib" target="REN" />
+    <edge source="Sunitinib" target="G003" />
+    <edge source="Sunitinib" target="STAT3" />
+    <edge source="Sunitinib" target="G144" />
+    <edge source="Sunitinib" target="G039" />
+    <edge source="Sunitinib" target="G029" />
+    <edge source="Sunitinib" target="PIK3CA" />
+    <edge source="Sunitinib" target="EGFR" />
+    <edge source="Sunitinib" target="FOS" />
+    <edge source="Sunitinib" target="G020" />
+    <edge source="Ticagrelor" target="G156" />
+    <edge source="Ticagrelor" target="G109" />
+    <edge source="Ticagrelor" target="ABCB1" />
+    <edge source="Ticagrelor" target="SREBF2" />
+    <edge source="Ticagrelor" target="G080" />
+    <edge source="Ticagrelor" target="CYP2C19" />
+    <edge source="Ticagrelor" target="P2RY12" />
+    <edge source="Ticagrelor" target="IL6" />
+    <edge source="Ticagrelor" target="G052" />
+    <edge source="Ticagrelor" target="G055" />
+    <edge source="Ticagrelor" target="NFKB1" />
+    <edge source="Ticagrelor" target="G139" />
+    <edge source="Trastuzumab" target="MTOR" />
+    <edge source="Trastuzumab" target="AKT1" />
+    <edge source="Trastuzumab" target="JUN" />
+    <edge source="Trastuzumab" target="STAT3" />
+    <edge source="Trastuzumab" target="G111" />
+    <edge source="Trastuzumab" target="F2" />
+    <edge source="Trastuzumab" target="G011" />
+    <edge source="Trastuzumab" target="SLC22A1" />
+    <edge source="Trastuzumab" target="IL6" />
+    <edge source="Trastuzumab" target="PIK3CA" />
+    <edge source="Trastuzumab" target="EGFR" />
+    <edge source="Trastuzumab" target="G033" />
+    <edge source="Trastuzumab" target="FOS" />
+    <edge source="Valsartan" target="REN" />
+    <edge source="Valsartan" target="STAT3" />
+    <edge source="Valsartan" target="G122" />
+    <edge source="Valsartan" target="G049" />
+    <edge source="Valsartan" target="AGTR1" />
+    <edge source="Valsartan" target="SLC47A1" />
+    <edge source="Valsartan" target="CRP" />
+    <edge source="Valsartan" target="MAPK3" />
+    <edge source="Valsartan" target="G105" />
+    <edge source="Valsartan" target="NOS3" />
+    <edge source="Valsartan" target="EGFR" />
+    <edge source="Valsartan" target="ACE" />
+    <edge source="Vancomycin" target="G078" />
+    <edge source="Vancomycin" target="TNF" />
+    <edge source="Vancomycin" target="ABCB1" />
+    <edge source="Vancomycin" target="F2" />
+    <edge source="Vancomycin" target="G140" />
+    <edge source="Vancomycin" target="IL6" />
+    <edge source="Vancomycin" target="CRP" />
+    <edge source="Vancomycin" target="NFKB1" />
+    <edge source="Vancomycin" target="G041" />
+    <edge source="Vancomycin" target="G113" />
+    <edge source="VitaminC" target="G054" />
+    <edge source="VitaminC" target="G011" />
+    <edge source="VitaminC" target="G064" />
+    <edge source="VitaminC" target="G094" />
+    <edge source="VitaminC" target="G092" />
+    <edge source="Warfarin" target="JUN" />
+    <edge source="Warfarin" target="CYP3A4" />
+    <edge source="Warfarin" target="G040" />
+    <edge source="Warfarin" target="ABCB1" />
+    <edge source="Warfarin" target="TNF" />
+    <edge source="Warfarin" target="F2" />
+    <edge source="Warfarin" target="F5" />
+    <edge source="Warfarin" target="VKORC1" />
+    <edge source="Warfarin" target="SERPINC1" />
+    <edge source="Warfarin" target="G041" />
+  </graph>
+</graphml>
